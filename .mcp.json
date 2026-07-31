@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gtm-engine": {
+      "type": "http",
+      "url": "https://tigify-automation-gtmengine-4qawfh-d997ba-178-156-227-244.sslip.io/mcp/${GTM_ENGINE_API_KEY}"
+    }
+  }
+}
