@@ -182,7 +182,7 @@
     overflow: hidden; box-shadow: var(--shadow);
   }
   .roster-head {
-    display: grid; grid-template-columns: 40px 1fr 150px 118px;
+    display: grid; grid-template-columns: 36px minmax(0,1fr) 232px;
     gap: 14px; padding: 11px 18px;
     background: var(--surface-2); border-bottom: 1px solid var(--line);
     font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
@@ -190,7 +190,7 @@
   }
   .roster-head .r { text-align: right; }
   .row {
-    display: grid; grid-template-columns: 40px 1fr 150px 118px;
+    display: grid; grid-template-columns: 36px minmax(0,1fr) 232px;
     align-items: center; gap: 14px;
     padding: 12px 18px; border-bottom: 1px solid var(--line);
   }
@@ -199,16 +199,38 @@
   .row .idx { font-size: 12px; color: var(--ink-faint); text-align: right; }
   .row .dom { font-size: 14.5px; font-weight: 500; word-break: break-all; }
   .row .dom .tld { color: var(--accent); }
-  .src {
-    font-size: 11.5px; color: var(--ink-soft); display: flex; align-items: center; gap: 7px;
+  .listed { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+  .badge {
+    font-size: 10.5px; font-weight: 700; letter-spacing: .04em;
+    padding: 3px 8px; border-radius: 6px; white-space: nowrap;
+    display: inline-flex; align-items: center; gap: 5px;
   }
-  .src .reg-dot { flex: none; width: 7px; height: 7px; border-radius: 999px; background: var(--amber); }
-  .chip {
-    font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  .badge .bdot { width: 6px; height: 6px; border-radius: 999px; }
+  .badge.gtm {
+    color: var(--accent); background: var(--accent-soft);
+    border: 1px solid color-mix(in srgb, var(--accent) 26%, transparent);
+  }
+  .badge.gtm .bdot { background: var(--accent); }
+  .badge.surbl {
     color: var(--critical); background: var(--critical-soft);
-    padding: 4px 9px; border-radius: 6px; white-space: nowrap; justify-self: start;
-    border: 1px solid color-mix(in srgb, var(--critical) 22%, transparent);
+    border: 1px solid color-mix(in srgb, var(--critical) 28%, transparent);
   }
+  .badge.surbl .bdot { background: var(--critical); }
+
+  /* Registry coverage panel */
+  .coverage {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 0 0 18px;
+  }
+  .cov {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 16px; box-shadow: var(--shadow);
+  }
+  .cov-top { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 13.5px; }
+  .cov-status { font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 2px 7px; border-radius: 5px; margin-left: auto; }
+  .cov-status.ok { color: var(--green); background: color-mix(in srgb, var(--green) 14%, transparent); }
+  .cov-status.na { color: var(--amber); background: color-mix(in srgb, var(--amber) 16%, transparent); }
+  .cov p { margin: 8px 0 0; font-size: 12px; color: var(--ink-faint); line-height: 1.5; }
+  .cov .big { font-size: 12px; color: var(--ink-soft); font-weight: 600; }
 
   /* Methodology */
   .method {
@@ -233,17 +255,19 @@
     .method-grid { grid-template-columns: 1fr; gap: 12px; }
     .meta { text-align: left; }
   }
+  @media (max-width: 620px) {
+    .coverage { grid-template-columns: 1fr; }
+  }
   @media (max-width: 560px) {
     .roster-head { display: none; }
     .row {
       grid-template-columns: 28px 1fr;
-      grid-template-areas: "idx dom" ". src" ". chip";
-      row-gap: 6px;
+      grid-template-areas: "idx dom" ". listed";
+      row-gap: 8px;
     }
     .row .idx { grid-area: idx; }
     .row .dom { grid-area: dom; }
-    .row .src { grid-area: src; }
-    .row .chip { grid-area: chip; }
+    .row .listed { grid-area: listed; justify-content: flex-start; }
   }
   @media (max-width: 440px) {
     .kpis { grid-template-columns: 1fr 1fr; }
@@ -329,14 +353,28 @@
       <h3>Blacklisted domains</h3>
       <span class="count">29 flagged</span>
     </div>
-    <p class="section-note">Each domain below shares infrastructure with amplixity.com and appears on one or more active blacklists. All were flagged by the same source — the GTM Auto blacklist engine (host.io-backed); the scan does not break out individual RBL providers per domain.</p>
+    <p class="section-note">Every domain below carries the <b>GTM Auto</b> blacklist flag. We also ran a live cross-check against the public URI/domain registries — where a domain was independently confirmed, its registry is tagged on the row.</p>
+
+    <div class="coverage">
+      <div class="cov">
+        <div class="cov-top">SURBL <span class="cov-status ok">Checked</span></div>
+        <p><span class="big">6 of 29 confirmed</span> — all on the SURBL <em>Abuse</em> (spam) list.</p>
+      </div>
+      <div class="cov">
+        <div class="cov-top">URIBL <span class="cov-status na">Not verifiable</span></div>
+        <p>Registry refused queries from this scan resolver — listings could not be confirmed either way.</p>
+      </div>
+      <div class="cov">
+        <div class="cov-top">Spamhaus DBL <span class="cov-status na">Not verifiable</span></div>
+        <p>Registry refused queries from this scan resolver — listings could not be confirmed either way.</p>
+      </div>
+    </div>
 
     <div class="roster mono">
       <div class="roster-head">
         <div class="r">#</div>
         <div>Domain</div>
-        <div>Blacklist source</div>
-        <div class="r">Status</div>
+        <div class="r">Listed on</div>
       </div>
       <div id="roster"></div>
     </div>
@@ -359,6 +397,7 @@
       </div>
     </div>
     <p>Method: GTM Auto blacklist-only scan. One host.io API call resolves the seed's redirect total and up to 50 connected domains, each then checked against the blacklist. Gates: count ≥ 10 redirects, blacklist ≥ 5 flagged domains — amplixity.com cleared both. Served from cache; no new API spend. Sample reflects the domains host.io surfaced on page one, not the full 1,264-domain network.</p>
+    <p>Registry cross-check: each flagged domain was queried live against the public URI/domain blacklists. <b>SURBL</b> responded and independently confirmed 6 domains on its Abuse (spam) list. <b>URIBL</b> and <b>Spamhaus DBL</b> refused queries from the scan resolver, so their listings could not be verified — an absent registry tag means "not independently confirmed," not "clean."</p>
   </div>
 
   <footer>
@@ -383,15 +422,21 @@
     "amplixitypulseworker.shop","amplixityglobal.xyz","amplixitycell.pro",
     "amplixityrise.info","amplixityoutboundpipeline.co"
   ];
+  // Domains independently confirmed on SURBL (Abuse/spam list, 127.0.0.64), live cross-check
+  var surbl = {
+    "amplixityhydraevent.shop": 1, "amplixitydatavault.shop": 1, "amplixitysolidengine.shop": 1,
+    "amplixityonyxadapter.shop": 1, "amplixityhydrakeeper.shop": 1, "amplixitypulseworker.shop": 1
+  };
   var html = domains.map(function (d, i) {
     var dot = d.lastIndexOf(".");
     var name = d.slice(0, dot), tld = d.slice(dot);
     var n = String(i + 1).padStart(2, "0");
+    var badges = '<span class="badge gtm"><span class="bdot"></span>GTM Auto</span>';
+    if (surbl[d]) badges += '<span class="badge surbl"><span class="bdot"></span>SURBL · Abuse</span>';
     return '<div class="row">' +
       '<div class="idx">' + n + '</div>' +
       '<div class="dom">' + name + '<span class="tld">' + tld + '</span></div>' +
-      '<div class="src"><span class="reg-dot"></span>GTM Auto · host.io</div>' +
-      '<div class="chip">Blacklisted</div>' +
+      '<div class="listed">' + badges + '</div>' +
     '</div>';
   }).join("");
   document.getElementById("roster").innerHTML = html;
