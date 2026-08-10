@@ -231,6 +231,24 @@
   .cov-status.na { color: var(--amber); background: color-mix(in srgb, var(--amber) 16%, transparent); }
   .cov p { margin: 8px 0 0; font-size: 12px; color: var(--ink-faint); line-height: 1.5; }
   .cov .big { font-size: 12px; color: var(--ink-soft); font-weight: 600; }
+  /* 8-registry cross-check panel */
+  .regpanel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; box-shadow: var(--shadow); margin: 0 0 18px; }
+  .regpanel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+  .rp-title { font-weight: 700; font-size: 14px; letter-spacing: -.01em; }
+  .rp-sub { font-size: 11.5px; color: var(--ink-faint); }
+  .reggrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .reg { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 3px; background: var(--surface-2); }
+  .reg-name { font-size: 12.5px; font-weight: 700; }
+  .reg-val { font-size: 10.5px; font-weight: 600; }
+  .reg.hit { border-color: color-mix(in srgb, var(--critical) 40%, transparent); background: var(--critical-soft); }
+  .reg.hit .reg-val { color: var(--critical); }
+  .reg.clean .reg-val { color: var(--green); }
+  .reg.clean .reg-name { color: var(--ink-soft); }
+  .reg.na { opacity: .85; }
+  .reg.na .reg-val { color: var(--amber); }
+  .reg.na .reg-name { color: var(--ink-soft); }
+  .rp-note { font-size: 12px; color: var(--ink-faint); line-height: 1.55; margin: 14px 0 0; }
+  @media (max-width: 720px){ .reggrid { grid-template-columns: repeat(2, 1fr); } }
 
   /* Methodology */
   .method {
@@ -353,21 +371,24 @@
       <h3>Blacklisted domains</h3>
       <span class="count">13 flagged</span>
     </div>
-    <p class="section-note">Every domain below carries the <b>GTM Auto</b> blacklist flag. We also ran a live cross-check against the public URI/domain registries — where a domain was independently confirmed, its registry is tagged on the row.</p>
+    <p class="section-note">Every domain below carries the <b>GTM Auto</b> blacklist flag. We also ran a live cross-check against 8 public URI/domain registries — where a domain was independently confirmed, its registry is tagged on the row.</p>
 
-    <div class="coverage">
-      <div class="cov">
-        <div class="cov-top">SURBL <span class="cov-status ok">Checked</span></div>
-        <p><span class="big">5 of 13 confirmed</span> — all on the SURBL <em>Abuse</em> (spam) list.</p>
+    <div class="regpanel">
+      <div class="regpanel-head">
+        <span class="rp-title">Registry cross-check</span>
+        <span class="rp-sub">8 public domain-reputation registries · queried live 10 Aug 2026</span>
       </div>
-      <div class="cov">
-        <div class="cov-top">URIBL <span class="cov-status na">Not verifiable</span></div>
-        <p>Registry refused queries from this scan resolver — listings could not be confirmed either way.</p>
+      <div class="reggrid">
+        <div class="reg hit"><span class="reg-name">SURBL</span><span class="reg-val">5 listed · spam/abuse</span></div>
+        <div class="reg clean"><span class="reg-name">NordSpam DBL</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">Suomispam DBL</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">Brukalai · black</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">Brukalai · light</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">abuse.ro URI</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">SIBL</span><span class="reg-val">0 listed</span></div>
+        <div class="reg na"><span class="reg-name">URIBL</span><span class="reg-val">query refused</span></div>
       </div>
-      <div class="cov">
-        <div class="cov-top">Spamhaus DBL <span class="cov-status na">Not verifiable</span></div>
-        <p>Registry refused queries from this scan resolver — listings could not be confirmed either way.</p>
-      </div>
+      <p class="rp-note">Across all 8 registries queried live, only <b>SURBL</b> lists any of these domains — 5 on its spam/abuse list. <b>URIBL</b> refused unkeyed queries and <b>Spamhaus DBL</b> needs a keyed query service, so neither is confirmed either way — an absent tag means &ldquo;not independently confirmed,&rdquo; not &ldquo;clean.&rdquo;</p>
     </div>
 
     <div class="roster mono">
@@ -397,7 +418,7 @@
       </div>
     </div>
     <p>Method: GTM Auto blacklist-only scan. One host.io API call resolves the seed's redirect total and up to 50 connected domains, each then checked against the blacklist. Gates: count ≥ 10 redirects, blacklist ≥ 5 flagged domains — amplixity.com cleared both. Served from cache; no new API spend. host.io returned all 15 redirect domains, so this is full network coverage — not a page-one sample.</p>
-    <p>Registry cross-check: each flagged domain was queried live against the public URI/domain blacklists. <b>SURBL</b> responded and independently confirmed 5 domains on its Abuse (spam) list. <b>URIBL</b> and <b>Spamhaus DBL</b> refused queries from the scan resolver, so their listings could not be verified — an absent registry tag means "not independently confirmed," not "clean."</p>
+    <p>Registry cross-check: each flagged domain was queried live against 8 public URI/domain blacklists — SURBL, URIBL, NordSpam DBL, Suomispam DBL, Brukalai (black &amp; light), abuse.ro URI and SIBL. <b>SURBL</b> was the only registry to list any of these domains — 5 confirmed on its spam/abuse list. URIBL refused unkeyed queries from the scan resolver and Spamhaus DBL requires a keyed query service, so neither could be verified — an absent registry tag means &ldquo;not independently confirmed,&rdquo; not &ldquo;clean.&rdquo;</p>
   </div>
 
   <footer>
