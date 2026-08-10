@@ -239,6 +239,7 @@
   .reggrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
   .reg { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 3px; background: var(--surface-2); }
   .reg-name { font-size: 12.5px; font-weight: 700; }
+  .reg-zone { font-size: 9.5px; color: var(--ink-faint); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; word-break: break-all; line-height: 1.3; }
   .reg-val { font-size: 10.5px; font-weight: 600; }
   .reg.hit { border-color: color-mix(in srgb, var(--critical) 40%, transparent); background: var(--critical-soft); }
   .reg.hit .reg-val { color: var(--critical); }
@@ -379,16 +380,16 @@
         <span class="rp-sub">8 public domain-reputation registries · queried live 10 Aug 2026</span>
       </div>
       <div class="reggrid">
-        <div class="reg hit"><span class="reg-name">SURBL</span><span class="reg-val">5 listed · spam/abuse</span></div>
-        <div class="reg clean"><span class="reg-name">NordSpam DBL</span><span class="reg-val">0 listed</span></div>
-        <div class="reg clean"><span class="reg-name">Suomispam DBL</span><span class="reg-val">0 listed</span></div>
-        <div class="reg clean"><span class="reg-name">Brukalai · black</span><span class="reg-val">0 listed</span></div>
-        <div class="reg clean"><span class="reg-name">Brukalai · light</span><span class="reg-val">0 listed</span></div>
-        <div class="reg clean"><span class="reg-name">abuse.ro URI</span><span class="reg-val">0 listed</span></div>
-        <div class="reg clean"><span class="reg-name">SIBL</span><span class="reg-val">0 listed</span></div>
-        <div class="reg na"><span class="reg-name">URIBL</span><span class="reg-val">query refused</span></div>
+        <div class="reg hit"><span class="reg-name">SURBL</span><span class="reg-zone">multi.surbl.org</span><span class="reg-val">5 listed · spam/abuse</span></div>
+        <div class="reg clean"><span class="reg-name">NordSpam DBL</span><span class="reg-zone">dbl.nordspam.com</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">Suomispam DBL</span><span class="reg-zone">dbl.suomispam.net</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">Brukalai · black</span><span class="reg-zone">black.dnsbl.brukalai.lt</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">Brukalai · light</span><span class="reg-zone">light.dnsbl.brukalai.lt</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">abuse.ro URI</span><span class="reg-zone">uribl.abuse.ro</span><span class="reg-val">0 listed</span></div>
+        <div class="reg clean"><span class="reg-name">SIBL</span><span class="reg-zone">dob.sibl.support-intelligence.net</span><span class="reg-val">0 listed</span></div>
+        <div class="reg na"><span class="reg-name">URIBL</span><span class="reg-zone">multi.uribl.com</span><span class="reg-val">query refused</span></div>
       </div>
-      <p class="rp-note">Across all 8 registries queried live, only <b>SURBL</b> lists any of these domains — 5 on its spam/abuse list. <b>URIBL</b> refused unkeyed queries and <b>Spamhaus DBL</b> needs a keyed query service, so neither is confirmed either way — an absent tag means &ldquo;not independently confirmed,&rdquo; not &ldquo;clean.&rdquo;</p>
+      <p class="rp-note">Across all 8 registries queried live, only <b>SURBL</b> (SURBL.org) lists any of these domains — 5 on its <code>multi.surbl.org</code> ABUSE dataset. <b>URIBL</b> (uribl.com) refused unkeyed queries and <b>Spamhaus DBL</b> (The Spamhaus Project) needs a keyed query service, so neither is confirmed either way — an absent tag means &ldquo;not independently confirmed,&rdquo; not &ldquo;clean.&rdquo;</p>
     </div>
 
     <div class="roster mono">
@@ -418,7 +419,7 @@
       </div>
     </div>
     <p>Method: GTM Auto blacklist-only scan. One host.io API call resolves the seed's redirect total and up to 50 connected domains, each then checked against the blacklist. Gates: count ≥ 10 redirects, blacklist ≥ 5 flagged domains — amplixity.com cleared both. Served from cache; no new API spend. host.io returned all 15 redirect domains, so this is full network coverage — not a page-one sample.</p>
-    <p>Registry cross-check: each flagged domain was queried live against 8 public URI/domain blacklists — SURBL, URIBL, NordSpam DBL, Suomispam DBL, Brukalai (black &amp; light), abuse.ro URI and SIBL. <b>SURBL</b> was the only registry to list any of these domains — 5 confirmed on its spam/abuse list. URIBL refused unkeyed queries from the scan resolver and Spamhaus DBL requires a keyed query service, so neither could be verified — an absent registry tag means &ldquo;not independently confirmed,&rdquo; not &ldquo;clean.&rdquo;</p>
+    <p>Registry cross-check: each flagged domain was queried live against 8 public URI/domain blacklists — SURBL (<code>multi.surbl.org</code>), URIBL (<code>multi.uribl.com</code>), NordSpam DBL (<code>dbl.nordspam.com</code>), Suomispam DBL (<code>dbl.suomispam.net</code>), Brukalai black &amp; light (<code>dnsbl.brukalai.lt</code>), abuse.ro URI (<code>uribl.abuse.ro</code>) and SIBL / Support Intelligence (<code>dob.sibl.support-intelligence.net</code>). <b>SURBL</b> (SURBL.org) was the only registry to list any of these domains — 5 confirmed on its <code>multi.surbl.org</code> ABUSE dataset. URIBL refused unkeyed queries from the scan resolver and Spamhaus DBL (The Spamhaus Project) requires a keyed query service, so neither could be verified — an absent registry tag means &ldquo;not independently confirmed,&rdquo; not &ldquo;clean.&rdquo;</p>
   </div>
 
   <footer>
