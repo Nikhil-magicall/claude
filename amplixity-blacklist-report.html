@@ -181,8 +181,16 @@
     background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
     overflow: hidden; box-shadow: var(--shadow);
   }
+  .roster-head {
+    display: grid; grid-template-columns: 40px 1fr 150px 118px;
+    gap: 14px; padding: 11px 18px;
+    background: var(--surface-2); border-bottom: 1px solid var(--line);
+    font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
+    font-weight: 700; color: var(--ink-faint);
+  }
+  .roster-head .r { text-align: right; }
   .row {
-    display: grid; grid-template-columns: 40px 1fr auto;
+    display: grid; grid-template-columns: 40px 1fr 150px 118px;
     align-items: center; gap: 14px;
     padding: 12px 18px; border-bottom: 1px solid var(--line);
   }
@@ -191,10 +199,14 @@
   .row .idx { font-size: 12px; color: var(--ink-faint); text-align: right; }
   .row .dom { font-size: 14.5px; font-weight: 500; word-break: break-all; }
   .row .dom .tld { color: var(--accent); }
+  .src {
+    font-size: 11.5px; color: var(--ink-soft); display: flex; align-items: center; gap: 7px;
+  }
+  .src .reg-dot { flex: none; width: 7px; height: 7px; border-radius: 999px; background: var(--amber); }
   .chip {
     font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
     color: var(--critical); background: var(--critical-soft);
-    padding: 4px 9px; border-radius: 6px; white-space: nowrap;
+    padding: 4px 9px; border-radius: 6px; white-space: nowrap; justify-self: start;
     border: 1px solid color-mix(in srgb, var(--critical) 22%, transparent);
   }
 
@@ -221,10 +233,20 @@
     .method-grid { grid-template-columns: 1fr; gap: 12px; }
     .meta { text-align: left; }
   }
+  @media (max-width: 560px) {
+    .roster-head { display: none; }
+    .row {
+      grid-template-columns: 28px 1fr;
+      grid-template-areas: "idx dom" ". src" ". chip";
+      row-gap: 6px;
+    }
+    .row .idx { grid-area: idx; }
+    .row .dom { grid-area: dom; }
+    .row .src { grid-area: src; }
+    .row .chip { grid-area: chip; }
+  }
   @media (max-width: 440px) {
     .kpis { grid-template-columns: 1fr 1fr; }
-    .row { grid-template-columns: 28px 1fr; }
-    .row .chip { grid-column: 2; justify-self: start; }
   }
 </style>
 
@@ -307,9 +329,17 @@
       <h3>Blacklisted domains</h3>
       <span class="count">29 flagged</span>
     </div>
-    <p class="section-note">Each domain below shares infrastructure with amplixity.com and appears on one or more active blacklists.</p>
+    <p class="section-note">Each domain below shares infrastructure with amplixity.com and appears on one or more active blacklists. All were flagged by the same source — the GTM Auto blacklist engine (host.io-backed); the scan does not break out individual RBL providers per domain.</p>
 
-    <div class="roster mono" id="roster"></div>
+    <div class="roster mono">
+      <div class="roster-head">
+        <div class="r">#</div>
+        <div>Domain</div>
+        <div>Blacklist source</div>
+        <div class="r">Status</div>
+      </div>
+      <div id="roster"></div>
+    </div>
   </section>
 
   <div class="method">
@@ -360,6 +390,7 @@
     return '<div class="row">' +
       '<div class="idx">' + n + '</div>' +
       '<div class="dom">' + name + '<span class="tld">' + tld + '</span></div>' +
+      '<div class="src"><span class="reg-dot"></span>GTM Auto · host.io</div>' +
       '<div class="chip">Blacklisted</div>' +
     '</div>';
   }).join("");
