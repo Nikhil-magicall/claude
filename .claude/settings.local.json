@@ -4,7 +4,11 @@
       "mcp__Gmail__apply_sensitive_message_label",
       "mcp__Gmail__apply_sensitive_thread_label",
       "mcp__Gmail__create_draft",
-      "mcp__Gmail__update_draft"
+      "mcp__Gmail__update_draft",
+      "mcp__Attio__create-record",
+      "mcp__Attio__update-record",
+      "mcp__Attio__upsert-record",
+      "mcp__Attio__create-note"
     ]
   }
 }
