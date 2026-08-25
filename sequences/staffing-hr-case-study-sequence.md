@@ -1,8 +1,8 @@
 # InboxKit — Staffing & HR Firms
-## 3-Step Case Study Sequence ("your competitors are already using us")
+## 3-Step Sequence: "CTO | 300k | SF"
 
 **ICP:** Staffing agencies, executive search, RPO, and HR consultancies (5–200 employees)
-**Angle:** Social proof / competitor FOMO — named clients running candidate *and* client outreach on InboxKit daily
+**Angle:** Demo the channel in the subject line itself, then back it with named clients
 **Named references:** Magna Search Group (magnasearchgroup.com), Zaelot (zaelot.com)
 **Cadence:** Day 1 → Day 4 → Day 8. Emails 2 and 3 send as replies on the same thread.
 
@@ -10,53 +10,57 @@
 
 ---
 
-## Email 1 — Day 1 — The hook
+## Email 1 — Day 1 — The subject line *is* the pitch
 
-**Subject line options (test 2–3):**
-- your competitors' inboxes
-- Magna Search + Zaelot
-- candidates *and* clients, same setup
-- quick one, {{first_name}}
+**Subject:** CTO | 300k | SF
 
-**Preview text:** They stopped burning their main domain on outreach.
+*(Variants to test: `VP Eng | 280k | NYC` · `Senior BE | 190k | remote` — match the subject to the roles they actually place.)*
+
+**Preview text:** That's the whole email a candidate replies to.
 
 **Body:**
 
 Hi {{first_name}},
 
-Quick one — a good number of the staffing and search firms we work with are running their daily outreach on inboxes we built for them. Magna Search Group and Zaelot are two you'd probably recognize.
+That subject line is the pitch.
 
-Same setup does double duty for them: sourcing candidates *and* booking client meetings, out of dedicated inboxes that sit outside their main domain.
+Role, comp, location. Send that to the right 500 engineers and legit candidates reply — not "maybe," reply. No pitch, no paragraph about your firm's culture. Three data points and a send button.
 
-The reason they moved over is usually the same one. Recruiting outreach at volume either lands in spam or slowly cooks the domain you also send contracts and client proposals from. Splitting the two fixes both problems at once.
+Most staffing firms never run it at real volume because their domain can't take it. Sourcing outreach from the same domain you send client contracts on kills both.
 
-Worth a look at how they've got it set up?
+That's the part we handle. Domains, inboxes, warmup, DNS — all of it, set up and ready to send. You write the role.
+
+We think this can be a legit channel for you, and not a small one. Magna Search Group and Zaelot are running it daily right now, for candidates and clients both.
+
+Want me to show you their setup?
 
 {{sender_name}}
 InboxKit
 
-**Alt CTA (softer):** Want me to send over how they've structured it? No call needed.
-
 ---
 
-## Email 2 — Day 4 — The mechanics (reply on thread)
+## Email 2 — Day 4 — The case study (reply on thread)
 
-**Subject:** Re: [Email 1 subject]
+**Subject:** Re: CTO | 300k | SF
 
 **Body:**
 
-{{first_name}} — following up with the actual setup, in case it's useful either way.
+{{first_name}} — the setup I mentioned, since it's the part people ask about.
 
-What we hand a staffing firm:
+**Magna Search Group** and **Zaelot** both run two separate sending stacks with us:
 
-- Separate sending domains, so your primary domain never carries outreach volume
-- Google Workspace or Microsoft inboxes, provisioned and warmed before you send a single email
-- SPF, DKIM, DMARC configured correctly on day one — not a support ticket three weeks in
-- Enough inbox capacity to run candidate sourcing and client BD side by side, without either one throttling the other
+- One pool of inboxes for candidate sourcing — subject lines exactly like the one on this thread
+- A second pool for client BD — different domains, different tone, zero overlap
+- Their primary domain sends nothing but real business email, so it stays clean
 
-Firms like Magna Search Group and Zaelot are sending on this every working day — recruiters in one set of inboxes, BD in another, neither one touching the domain the business actually runs on.
+What we hand over on both:
 
-Setup takes about [X days] from the point you say go.
+- Separate sending domains, so your main domain never carries outreach volume
+- Google Workspace or Microsoft inboxes, provisioned and warmed before your first send
+- SPF, DKIM, DMARC configured on day one — not a support ticket three weeks in
+- Enough inbox capacity to run sourcing and BD in parallel without either throttling the other
+
+Live in about [X days] from go. After that the only work on your side is deciding which roles to blast.
 
 Are you sending from your main domain today, or have you already split it out?
 
@@ -66,13 +70,13 @@ Are you sending from your main domain today, or have you already split it out?
 
 ## Email 3 — Day 8 — The close (reply on thread)
 
-**Subject:** Re: [Email 1 subject]
+**Subject:** Re: CTO | 300k | SF
 
 **Body:**
 
-{{first_name}}, last one from me — I'll leave it here.
+{{first_name}}, last one from me.
 
-Short version: your competitors are running candidate and client outreach on infrastructure built for it. Magna Search Group, Zaelot, and [X] other staffing and search firms are on it daily.
+Short version: "CTO | 300k | SF" is a channel your competitors are already running daily — Magna Search Group, Zaelot, and [X] other staffing and search firms. We run the sending side so they don't have to think about it.
 
 If it's worth 10 minutes: {{calendar_link}}
 If the timing's wrong, reply "later" and I'll circle back next quarter.
@@ -85,15 +89,18 @@ InboxKit
 
 ## Notes for the sender
 
-**Why this order:** Email 1 sells the peer proof, not the product. Email 2 earns the reply by giving away the setup for free. Email 3 gives three easy exits, which is what actually pulls responses out of recruiters who ignored the first two.
+**Why the subject line works twice:** it's a pattern interrupt in a recruiter's inbox (looks like a role alert, not a vendor email), *and* it's a live demo of the exact channel you're selling. The first line of the body has to cash that check immediately — "That subject line is the pitch" — or it reads as bait.
 
-**Personalization worth adding** (lift is real, cost is one line):
-- Reference their live job board count: *"Saw [N] open roles on your site — that's a lot of sourcing volume for one domain."*
-- Reference their vertical: swap "staffing and search firms" for "healthcare staffing firms" / "tech recruiters" / "exec search" to match the segment you're sending to.
+**Match the subject to the segment.** Sending to healthcare staffing? `Travel RN | 3.2k/wk | Phoenix`. Sending to finance recruiters? `Controller | 210k | Chicago`. A tech comp number sent to a nursing agency kills the whole conceit.
+
+**Personalization worth adding** (one line, real lift):
+- Their live job board: *"Saw [N] open roles on your site — that's a lot of sourcing volume for one domain."*
+- Their vertical: swap "staffing firms" for "healthcare staffing firms" / "exec search" to match the list.
 
 **Do not:**
 - Claim a specific placement, revenue, or reply-rate number for a named client without their sign-off
 - Send all three from the same inbox at volume — rotate across the inbox pool
 - Add images, tracking pixels, or link-heavy signatures to email 1
+- Use a comp number you wouldn't defend on a call — recruiters know the market cold and a fake number reads as a fake sender
 
-**Segment variants to consider later:** exec search (fee-per-placement, client BD heavy) vs. high-volume staffing (candidate sourcing heavy). The second segment cares more about inbox capacity; lead email 2 with that.
+**Segment variants for later:** exec search (fee-per-placement, client BD heavy) vs. high-volume staffing (sourcing heavy). The second cares far more about inbox capacity — lead email 2 with that for them.
