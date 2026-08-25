@@ -2,7 +2,8 @@
 ## 3-Step Sequence: "CTO | 300k | SF"
 
 **ICP:** Staffing agencies, executive search, RPO, and HR consultancies (5–200 employees)
-**Angle:** Demo the channel in the subject line itself, then back it with named clients
+**Best-fit trigger:** Already running Outreach, Salesloft, or HubSpot — and already paying cold callers
+**Core insight:** They're not missing a channel. They're missing the layer that makes the channel land.
 **Named references:** Magna Search Group (magnasearchgroup.com), Zaelot (zaelot.com)
 **Cadence:** Day 1 → Day 4 → Day 8. Emails 2 and 3 send as replies on the same thread.
 
@@ -10,23 +11,21 @@
 
 ---
 
-## Email 1 — Day 1 — The subject line *is* the pitch
+## Email 1 — Day 1
 
 **Subject:** CTO | 300k | SF
 
-*(Variants to test: `VP Eng | 280k | NYC` · `Senior BE | 190k | remote` — match the subject to the roles they actually place.)*
-
-**Preview text:** That's the whole email a candidate replies to.
+*(Variants: `VP Eng | 280k | NYC` · `Travel RN | 3.2k/wk | Phoenix` · `Controller | 210k | Chicago` — match the subject to the roles they actually place.)*
 
 **Body:**
 
 Hi {{first_name}},
 
-That subject line is the pitch. Role, comp, location — send it to the right 500 engineers and good candidates reply.
+That subject line is the pitch. Role, comp, location — good candidates reply to it.
 
-Most firms can't run it at volume without wrecking the domain they send client contracts from.
+If your team already tried cold email and it went nowhere, it's usually not the copy. Outreach, Salesloft and HubSpot send the email. None of them decide whether it lands in the inbox or in spam — and sent off your main domain, most of it doesn't.
 
-We handle everything: the data, the sending, and keeping you out of spam. You just pick the roles.
+That's our whole job. We handle the data, the sending, and the deliverability.
 
 Magna Search Group and Zaelot run it with us daily — candidates and clients both.
 
@@ -37,36 +36,35 @@ InboxKit
 
 ---
 
-## Email 2 — Day 4 — The case study (reply on thread)
+## Email 2 — Day 4 — Callers + case study (reply on thread)
 
 **Subject:** Re: CTO | 300k | SF
 
 **Body:**
 
-{{first_name}} — the setup I mentioned, since it's the part people ask about.
+{{first_name}} — the other half of this.
 
-**Magna Search Group** and **Zaelot** both run two separate sending stacks with us:
+A cold caller runs you [$X] a year, takes three months to ramp, and is usually gone inside eighteen. Sixty dials a day to get [X] real conversations. The good ones are rare and they get poached.
 
-- One pool of inboxes for candidate sourcing — subject lines exactly like the one on this thread
-- A second pool for client BD — different domains, different tone, zero overlap
-- Their primary domain sends nothing but real business email, so it stays clean
+Email done properly doesn't replace them — it feeds them.
 
-What we hand over on both:
+Magna Search Group and Zaelot both run two separate pools with us:
 
-- Separate sending domains, so your main domain never carries outreach volume
-- Google Workspace or Microsoft inboxes, provisioned and warmed before your first send
-- SPF, DKIM, DMARC configured on day one — not a support ticket three weeks in
-- Enough inbox capacity to run sourcing and BD in parallel without either throttling the other
+- One for candidate sourcing, subject lines exactly like this thread's
+- One for client BD, different domains and different tone
+- Their main domain — the one HubSpot sits on — carries no outreach volume at all, so it stays clean
 
-Live in about [X days] from go. After that the only work on your side is deciding which roles to blast.
+Their callers now spend the day on people who already replied instead of dialling cold lists.
 
-Are you sending from your main domain today, or have you already split it out?
+You keep Outreach or Salesloft for the sequencing. We sit underneath it. Live in about [X days].
+
+Are you still sending off your main domain?
 
 {{sender_name}}
 
 ---
 
-## Email 3 — Day 8 — The close (reply on thread)
+## Email 3 — Day 8 — Close (reply on thread)
 
 **Subject:** Re: CTO | 300k | SF
 
@@ -74,11 +72,13 @@ Are you sending from your main domain today, or have you already split it out?
 
 {{first_name}}, last one from me.
 
-Short version: "CTO | 300k | SF" is a channel your competitors are already running daily — Magna Search Group, Zaelot, and [X] other staffing and search firms. We run the sending side so they don't have to think about it.
+If cold email hasn't worked for you, worth ruling out the boring reason before you write the channel off: nobody saw it.
 
-If it's worth 10 minutes: {{calendar_link}}
-If the timing's wrong, reply "later" and I'll circle back next quarter.
-If it's a no, say so and I'll close the file — no hard feelings.
+Magna Search Group, Zaelot and [X] other firms are running it daily.
+
+Ten minutes: {{calendar_link}}
+Wrong timing — reply "later" and I'll come back next quarter.
+Not for you — say no and I'll close the file.
 
 {{sender_name}}
 InboxKit
@@ -87,18 +87,21 @@ InboxKit
 
 ## Notes for the sender
 
-**Why the subject line works twice:** it's a pattern interrupt in a recruiter's inbox (looks like a role alert, not a vendor email), *and* it's a live demo of the exact channel you're selling. The first line of the body has to cash that check immediately — "That subject line is the pitch" — or it reads as bait.
+**The argument in one line:** their cold email failed and their callers are expensive, and both problems have the same cause — the message never reaches a human. Outreach and Salesloft are sequencing tools; nothing in them fixes deliverability or data. That's the gap you fill, and it's why "we sit underneath your existing stack" matters more than any feature. Nobody is ripping out HubSpot for you.
 
-**Match the subject to the segment.** Sending to healthcare staffing? `Travel RN | 3.2k/wk | Phoenix`. Sending to finance recruiters? `Controller | 210k | Chicago`. A tech comp number sent to a nursing agency kills the whole conceit.
+**Why the subject works twice:** it's a pattern interrupt in a recruiter's inbox and a live demo of the channel you're selling. The first line has to cash that check immediately — *"That subject line is the pitch"* — or it reads as bait and you'll collect spam complaints, which is a bad look for a deliverability vendor.
 
-**Personalization worth adding** (one line, real lift):
-- Their live job board: *"Saw [N] open roles on your site — that's a lot of sourcing volume for one domain."*
-- Their vertical: swap "staffing firms" for "healthcare staffing firms" / "exec search" to match the list.
+**Targeting:** prioritise firms with Outreach, Salesloft, or HubSpot in their tech stack. They've already bought into outbound, already have budget allocated, and are the ones most likely to be disappointed with what it's returning. A firm with no sales stack needs a different, longer pitch.
+
+**Personalization worth one line:**
+- *"Saw [N] open roles on your site — that's a lot of sourcing volume for one domain."*
+- Swap "staffing firms" for their vertical to match the list.
 
 **Do not:**
-- Claim a specific placement, revenue, or reply-rate number for a named client without their sign-off
-- Send all three from the same inbox at volume — rotate across the inbox pool
-- Add images, tracking pixels, or link-heavy signatures to email 1
-- Use a comp number you wouldn't defend on a call — recruiters know the market cold and a fake number reads as a fake sender
+- Claim a placement, revenue, or reply-rate number for a named client without their sign-off
+- Trash Outreach/Salesloft by name — they chose it, and the pitch is that we complement it
+- Promise to replace their callers; the framing is that you make the callers' day worth more
+- Send all three from the same inbox at volume — rotate across the pool
+- Use a comp number you wouldn't defend on a call
 
-**Segment variants for later:** exec search (fee-per-placement, client BD heavy) vs. high-volume staffing (sourcing heavy). The second cares far more about inbox capacity — lead email 2 with that for them.
+**Split-test worth running:** a client-BD version of email 1 for owners and BD leads, subject like `2 CTOs, both open`. Sourcing pain lands with delivery leads; client acquisition lands with whoever owns revenue.
