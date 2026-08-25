@@ -13,50 +13,50 @@
 
 ---
 
-## Email 1 — Day 1 — Problem + proof + audit
+## Email 1 — Day 1 — Problem + proof + free check
 
 **Subject line options (test 2–3):**
 - Magna Search + Zaelot
 - 20 meetings a week
 - one domain, all your outreach
-- where your emails are actually landing
+- where your emails are landing
 
 **Body:**
 
 Hi {{first_name}},
 
-Most agencies have written off cold email — usually because everything goes out from one domain, so half of it never lands.
+Most agencies gave up on cold email. Usually for the same reason: everything goes out from one domain, so half of it lands in spam.
 
-We work with Magna Search Group and Zaelot on both sides of their pipeline, candidates and clients. They're booking 20 meetings a week off it.
+We work with Magna Search Group and Zaelot. They use it for candidates and clients, and book 20 meetings a week.
 
-We take care of the whole thing: the data, the sending, and the deliverability.
+We do the whole thing for you — the lists, the sending, and making sure the emails get seen.
 
-Want me to check where your emails are landing right now? Send me the domain you send from and I'll come back with what's hitting the inbox and what's going to spam. Takes a day, costs nothing.
+Want me to check yours first? Send me the domain you send from and I'll tell you what's reaching people and what's going to spam. One day, no charge.
 
 {{sender_name}}
 InboxKit
 
 ---
 
-## Email 2 — Day 4 — Setup + pilot (reply on thread)
+## Email 2 — Day 4 — How it works + 30-day test (reply on thread)
 
 **Subject:** Re: [email 1 subject]
 
 **Body:**
 
-{{first_name}} — what the setup actually looks like, in case it's useful either way.
+{{first_name}} — here's how they run it.
 
-Magna Search Group and Zaelot each run two separate pools with us:
+Magna Search Group and Zaelot each send from two sets of inboxes:
 
-- One for candidate sourcing — role, comp, location, straight to the point
-- One for client BD — different domains, different tone
-- Their main domain, the one their CRM sits on, carries no outreach volume at all, so it stays clean
+- One set for candidates
+- One set for clients
+- Their main domain sends none of it, so it stays clean
 
-Their callers now spend the day on people who already replied instead of dialling cold lists. That's usually where the money is — a caller costs you [$X] a year and takes three months to ramp, so you want them on warm conversations, not on a dial list.
+Their callers now spend the day talking to people who already replied, instead of working through a cold list. A caller costs you [$X] a year — you want them on warm conversations.
 
-If it's worth testing: we run 30 days alongside whatever you have now. Nothing gets ripped out, nobody has to change tools, and you compare reply rates at the end. If we can't get you to [X]% inbox placement in that window, you don't pay.
+If you want to test it: we run 30 days next to whatever you use now. You change nothing. At the end you compare replies. If your emails still aren't reaching inboxes, you don't pay.
 
-Still want me to run that audit on your domain?
+Want me to run that check on your domain?
 
 {{sender_name}}
 
@@ -70,13 +70,13 @@ Still want me to run that audit on your domain?
 
 {{first_name}}, last one from me.
 
-If cold email hasn't worked for you, worth ruling out the boring reason before you write the channel off: nobody saw it.
+Before you write off cold email, worth checking the boring reason: nobody saw it.
 
-The audit's still open — one domain, one day, no charge, and you keep the report either way.
+The check is still open. One domain, one day, no charge, and the report is yours either way.
 
-Reply with the domain and I'll run it.
-Wrong timing — reply "later" and I'll come back next quarter.
-Not for you — say no and I'll close the file.
+Reply with your domain and I'll run it.
+Wrong time — say "later" and I'll come back next quarter.
+Not for you — say no and I'll stop.
 
 {{sender_name}}
 InboxKit
