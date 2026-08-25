@@ -13,52 +13,44 @@
 
 ---
 
-## Email 1 — Day 1 — Problem + proof + free check
+## Email 1 — Day 1
 
 **Subject line options (test 2–3):**
 - Magna Search + Zaelot
 - 20 meetings a week
 - one domain, all your outreach
-- where your emails are landing
 
 **Body:**
 
 Hi {{first_name}},
 
-Most agencies gave up on cold email. Usually for the same reason: everything goes out from one domain, so half of it lands in spam.
+Most agencies have written off cold email, usually because everything goes out from one domain, so half of it never lands.
 
-We work with Magna Search Group and Zaelot. They use it for candidates and clients, and book 20 meetings a week.
+We work with Magna Search Group and Zaelot on both sides of their pipeline, candidates and clients. They're booking 20 meetings a week off it.
 
-We do the whole thing for you — the lists, the sending, and making sure the emails get seen.
+We handle the whole thing: the data, the sending, and the deliverability.
 
-Want me to check yours first? Send me the domain you send from and I'll tell you what's reaching people and what's going to spam. One day, no charge.
+Mind if I share more detail?
 
-{{sender_name}}
-InboxKit
+— Abbas
 
 ---
 
-## Email 2 — Day 4 — How it works + 30-day test (reply on thread)
+## Email 2 — Day 4 — Bump (reply on thread)
 
 **Subject:** Re: [email 1 subject]
 
 **Body:**
 
-{{first_name}} — here's how they run it.
+{{first_name}}, just bumping this up.
 
-Magna Search Group and Zaelot each send from two sets of inboxes:
+Magna Search Group and Zaelot each send from two sets of inboxes — one for candidates, one for client outreach. Their main domain sends none of it, so it stays clean.
 
-- One set for candidates
-- One set for clients
-- Their main domain sends none of it, so it stays clean
+Their callers now spend the day talking to people who already replied, instead of working through a cold list.
 
-Their callers now spend the day talking to people who already replied, instead of working through a cold list. A caller costs you [$X] a year — you want them on warm conversations.
+Mind if I share more detail?
 
-If you want to test it: we run 30 days next to whatever you use now. You change nothing. At the end you compare replies. If your emails still aren't reaching inboxes, you don't pay.
-
-Want me to run that check on your domain?
-
-{{sender_name}}
+— Abbas
 
 ---
 
@@ -70,16 +62,13 @@ Want me to run that check on your domain?
 
 {{first_name}}, last one from me.
 
-Before you write off cold email, worth checking the boring reason: nobody saw it.
+Before you write cold email off for good — most of the time it isn't the message, it's that nobody saw it.
 
-The check is still open. One domain, one day, no charge, and the report is yours either way.
+Happy to show you what Magna Search and Zaelot are doing. Ten minutes, and you can copy the setup whether you work with us or not.
 
-Reply with your domain and I'll run it.
-Wrong time — say "later" and I'll come back next quarter.
-Not for you — say no and I'll stop.
+Worth a look?
 
-{{sender_name}}
-InboxKit
+— Abbas
 
 ---
 
