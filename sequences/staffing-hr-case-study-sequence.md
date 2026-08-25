@@ -7,7 +7,7 @@
 **Named references:** Magna Search Group (magnasearchgroup.com), Zaelot (zaelot.com)
 **Cadence:** Day 1 → Day 4 → Day 8. Emails 2 and 3 send as replies on the same thread.
 
-> ⚠️ Before launch: confirm written OK from Magna Search Group and Zaelot to be named in cold outbound, and fill every `[bracket]` with a real number. Ship no stat you can't back up on the call.
+> ⚠️ Before launch: confirm written OK from Magna Search Group and Zaelot to be named in cold outbound, check that "20 meetings a week" is accurate and attributed to the right firm, and fill every `[bracket]` with a real number. Ship no stat you can't back up on the call.
 
 ---
 
@@ -15,23 +15,21 @@
 
 **Subject line options (test 2–3):**
 - Magna Search + Zaelot
-- your cold email vs. your callers
+- 20 meetings a week
+- one domain, all your outreach
 - quick one, {{first_name}}
-- sending off your main domain?
 
 **Body:**
 
 Hi {{first_name}},
 
-If your team has tried cold email and it went nowhere, it's usually not the copy.
+Most agencies have written off cold email — usually because everything goes out from one domain, so half of it never lands.
 
-You might be using Outreach, Salesloft or HubSpot — they send the email. None of them decide whether it lands in the inbox or in spam, and sent off your main domain, most of it doesn't.
+We work with Magna Search Group and Zaelot on both sides of their pipeline, candidates and clients. They're booking 20 meetings a week off it.
 
-That's our whole job. We handle the data, the sending, and the deliverability.
+We take care of the whole thing: the data, the sending, and the deliverability.
 
-Magna Search Group and Zaelot run it with us daily — candidates and clients both.
-
-Want to see their setup?
+Mind if I share more detail?
 
 {{sender_name}}
 InboxKit
@@ -99,6 +97,7 @@ InboxKit
 
 **Do not:**
 - Claim a placement, revenue, or reply-rate number for a named client without their sign-off
+- Let "20 meetings a week" go out unqualified if it's one firm's number, or a peak rather than a run rate — a recruiter will ask for the breakdown on the call
 - Trash Outreach/Salesloft by name — they chose it, and the pitch is that we complement it
 - Promise to replace their callers; the framing is that you make the callers' day worth more
 - Send all three from the same inbox at volume — rotate across the pool
