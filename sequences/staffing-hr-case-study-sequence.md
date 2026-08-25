@@ -25,7 +25,7 @@ Hi {{first_name}},
 
 If your team has tried cold email and it went nowhere, it's usually not the copy.
 
-Outreach, Salesloft and HubSpot send the email. None of them decide whether it lands in the inbox or in spam — and sent off your main domain, most of it doesn't.
+You might be using Outreach, Salesloft or HubSpot — they send the email. None of them decide whether it lands in the inbox or in spam, and sent off your main domain, most of it doesn't.
 
 That's our whole job. We handle the data, the sending, and the deliverability.
 
@@ -54,11 +54,11 @@ Magna Search Group and Zaelot both run two separate pools with us:
 
 - One for candidate sourcing — role, comp, location, straight to the point
 - One for client BD — different domains, different tone
-- Their main domain, the one HubSpot sits on, carries no outreach volume at all, so it stays clean
+- Their main domain, the one their CRM sits on, carries no outreach volume at all, so it stays clean
 
 Their callers now spend the day on people who already replied instead of dialling cold lists.
 
-You keep Outreach or Salesloft for the sequencing. We sit underneath it. Live in about [X days].
+You keep whatever you're sequencing in. We sit underneath it. Live in about [X days].
 
 Are you still sending off your main domain?
 
