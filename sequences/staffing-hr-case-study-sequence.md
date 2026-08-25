@@ -15,22 +15,24 @@
 
 ## Email 1 — Day 1
 
-**Subject line options (spin across sends):**
-`{Magna Search + Zaelot|20 meetings a week|one domain, all your outreach}`
+**Subject line options (test 2–3):**
+- Magna Search + Zaelot
+- 20 meetings a week
+- one domain, all your outreach
 
 **Body:**
 
-{Hi|Hey} {{first_name}},
+Hi {{first_name}},
 
-{Most|A lot of} agencies have {written off|given up on} cold email, usually because everything goes out from one domain, so half of it never lands.
+Most agencies have written off cold email, usually because everything goes out from one domain, so half of it never lands.
 
-We work with Magna Search Group and Zaelot on both sides of their pipeline: candidates and clients.
+{We work with|We're working with|We partner with} Magna Search Group and Zaelot {on both sides of their pipeline:|across both sides of their pipeline:|on the two sides of their pipeline:} candidates and clients.
 
-They're booking 20 meetings a week off it.
+{They're booking|They book|Right now they're booking} 20 meetings a week {off it|from it|off the back of it}.
 
 We handle the whole thing: the data, the sending, and the deliverability.
 
-{Mind if I share more detail?|Want me to share more detail?|Mind if I send the detail over?}
+Mind if I share more detail?
 
 - Abbas
 
@@ -42,13 +44,13 @@ We handle the whole thing: the data, the sending, and the deliverability.
 
 **Body:**
 
-{{first_name}}, {just bumping this up|bumping this back to the top|following up on this}.
+{{first_name}}, just bumping this up.
 
 Magna Search Group and Zaelot each send from two sets of inboxes: one for candidates, one for client outreach. Their main domain sends none of it, so it stays clean.
 
-Their callers now spend the day talking to people who already replied, {instead of|rather than} working through a cold list.
+Their callers now spend the day talking to people who already replied, instead of working through a cold list.
 
-{Mind if I share more detail?|Want the full breakdown?|Worth me sending the detail over?}
+Mind if I share more detail?
 
 - Abbas
 
@@ -64,9 +66,9 @@ Their callers now spend the day talking to people who already replied, {instead 
 
 Before you write cold email off for good, most of the time it isn't the message. It's that nobody saw it.
 
-{Happy to show you|Glad to walk you through} what Magna Search and Zaelot are doing. Ten minutes, and you can copy the setup whether you work with us or not.
+Happy to show you what Magna Search and Zaelot are doing. Ten minutes, and you can copy the setup whether you work with us or not.
 
-{Worth a look?|Worth 10 minutes?|Open to it?}
+Worth a look?
 
 - Abbas
 
@@ -74,10 +76,10 @@ Before you write cold email off for good, most of the time it isn't the message.
 
 ## Spintax rules
 
-- **Never spin the facts.** Client names, "20 meetings a week", the two-inbox setup, and the offer stay fixed in every variant. Spin the wrapper, not the claim.
-- **Every combination has to read clean.** Email 1 alone is 2 x 2 x 2 x 3 = 24 variants. Generate all of them once and read them before launch; one broken combination goes out hundreds of times.
-- **Watch the token collision.** `{{first_name}}` uses the same braces as spintax. Confirm your sender treats it as a merge tag and not a spin block, or the first send goes out as "Hi first_name".
-- **It's cosmetic, not structural.** Spintax varies the fingerprint of the copy. It does nothing for domain reputation, list quality, or volume per inbox, which are what actually decide whether these land.
+- Spintax lives only in the two pipeline lines of email 1. Everything else sends verbatim.
+- The facts inside those lines never vary: the client names and "20 meetings a week" are fixed in every variant.
+- Those two lines make 3 x 3 x 3 x 3 = 81 combinations. Skim the generated output before launch; one broken combination goes out hundreds of times.
+- `{{first_name}}` uses the same braces as spintax. Confirm your sender treats it as a merge tag, not a spin block — send yourself a test first.
 
 ---
 
