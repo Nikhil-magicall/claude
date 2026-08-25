@@ -28,7 +28,7 @@ Role, comp, location. Send that to the right 500 engineers and legit candidates 
 
 Most staffing firms never run it at real volume because their domain can't take it. Sourcing outreach from the same domain you send client contracts on kills both.
 
-That's the part we handle. Domains, inboxes, warmup, DNS — all of it, set up and ready to send. You write the role.
+That's the part we handle. We take care of everything — the data, the deliverability, and the sending — so your team can stay on the roles and the placements instead of the plumbing. The whole job is making sure people actually see your emails instead of them landing in spam.
 
 We think this can be a legit channel for you, and not a small one. Magna Search Group and Zaelot are running it daily right now, for candidates and clients both.
 
