@@ -32,7 +32,7 @@ We handle the whole thing: the data, the sending, and the deliverability.
 
 Mind if I share more detail?
 
-— Abbas
+- Abbas
 
 ---
 
@@ -44,13 +44,13 @@ Mind if I share more detail?
 
 {{first_name}}, just bumping this up.
 
-Magna Search Group and Zaelot each send from two sets of inboxes — one for candidates, one for client outreach. Their main domain sends none of it, so it stays clean.
+Magna Search Group and Zaelot each send from two sets of inboxes: one for candidates, one for client outreach. Their main domain sends none of it, so it stays clean.
 
 Their callers now spend the day talking to people who already replied, instead of working through a cold list.
 
 Mind if I share more detail?
 
-— Abbas
+- Abbas
 
 ---
 
@@ -62,13 +62,13 @@ Mind if I share more detail?
 
 {{first_name}}, last one from me.
 
-Before you write cold email off for good — most of the time it isn't the message, it's that nobody saw it.
+Before you write cold email off for good, most of the time it isn't the message. It's that nobody saw it.
 
 Happy to show you what Magna Search and Zaelot are doing. Ten minutes, and you can copy the setup whether you work with us or not.
 
 Worth a look?
 
-— Abbas
+- Abbas
 
 ---
 
