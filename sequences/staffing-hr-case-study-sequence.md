@@ -22,17 +22,15 @@
 
 Hi {{first_name}},
 
-That subject line is the pitch.
+That subject line is the pitch. Role, comp, location — send it to the right 500 engineers and good candidates reply.
 
-Role, comp, location. Send that to the right 500 engineers and legit candidates reply — not "maybe," reply. No pitch, no paragraph about your firm's culture. Three data points and a send button.
+Most firms can't run it at volume without wrecking the domain they send client contracts from.
 
-Most staffing firms never run it at real volume because their domain can't take it. Sourcing outreach from the same domain you send client contracts on kills both.
+We handle everything: the data, the sending, and keeping you out of spam. You just pick the roles.
 
-That's the part we handle. We take care of everything — the data, the deliverability, and the sending — so your team can stay on the roles and the placements instead of the plumbing. The whole job is making sure people actually see your emails instead of them landing in spam.
+Magna Search Group and Zaelot run it with us daily — candidates and clients both.
 
-We think this can be a legit channel for you, and not a small one. Magna Search Group and Zaelot are running it daily right now, for candidates and clients both.
-
-Want me to show you their setup?
+Want to see their setup?
 
 {{sender_name}}
 InboxKit
