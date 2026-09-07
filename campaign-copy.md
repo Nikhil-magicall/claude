@@ -112,3 +112,54 @@ Subject: `closing the loop`
 | `similar_company_descriptor` | Pick from a short list by segment, e.g. "vertical SaaS company with 120 reps" |
 
 Personas: Head of Sales Development, RevOps lead, VP Sales, CRO. Openers A and C for VP Sales and CRO. Openers B and D for Sales Development and RevOps.
+
+---
+
+## Additional first-touch variants (E–N)
+
+**E — The bet** · Subject: `a bet on {{company}}`
+> Here's a bet. We run 10,000 cold emails to your ICP, on our infrastructure, with our copy, and book the replies into your reps' calendars. If the meetings aren't worth it, you've lost 45 days and nothing else. If they are, your team scales it. Want to see how it's structured?
+
+**F — Borrow our team** · Subject: `borrow our outbound team`
+> Instead of hiring two SDRs and waiting six months to find out if cold email works for {{company}}, borrow our team for 45 days. We build the infrastructure, write the emails, send 10–25K, and hand you the meetings. Then you decide whether to run it at scale. Worth a 20-minute call?
+
+**G — Your ICP, our sending** · Subject: `your list, our infrastructure`
+> You know exactly who should be buying {{company}}. Reaching them at volume without wrecking your domain is the hard part. Send us the ICP. We handle the domains, mailboxes, copy, and sending, and you get the meetings. If it works, your reps take it over on our infrastructure. Open to scoping it?
+
+**H — The question** · Subject: `quick question`
+> How many cold emails did {{company}} send last month? Most companies your size land between 20K and 80K, all from the corporate domain, with a lot going to spam. We'll send your next 25K from infrastructure built for it and show you the difference in meetings. Interested in the numbers?
+
+**I — Skeptic-friendly** · Subject: `probably not for you`
+> Cold email at scale is a hard sell to a company that's been around as long as {{company}}. Fair. So we don't sell it. We run it for you first: 10K of your ICP, our infrastructure, meetings into your calendar. You look at the results and decide. If that's a reasonable way to find out, I'll send the details.
+
+**J — The 15× line** · Subject: `15x`
+> Same SDR team. Roughly 15× the outbound reach. That's what happens when reps stop sending from one corporate mailbox each. We don't ask you to take our word for it. We run the first 10–25K emails ourselves and give you the meetings. Want to see it on your ICP?
+
+**K — One-sentence offer** · Subject: `{{company}} outbound`
+> We run cold email for software companies: infrastructure, copy, sending, reply handling. You get the meetings. If it works, you scale it on our infrastructure. That's the whole pitch. 20 minutes to see if it fits {{company}}?
+
+**L — Board pressure** · Subject: `pipeline next quarter`
+> If pipeline is the number you're being asked about, cold email at scale is the fastest channel to move it that doesn't need headcount or a paid budget. We'll prove it: 10–25K emails to your ICP in 45 days, meetings booked for your reps. Then you decide about scaling. Worth a look before the quarter's planned?
+
+**M — New leader** · Subject: `first 90 days`
+> Congrats on the {{title}} role. New sales leaders usually want a quick win on pipeline before the big changes. We run cold email for companies like {{company}} and can put meetings on your reps' calendars within 45 days, on our infrastructure, with no headcount request. Happy to walk through how it works.
+
+**N — Competitor** · Subject: `{{competitor}} outbound`
+> {{competitor}} is running outbound at a volume your team can't match from the corporate domain. We see it in the inbox data. We can run 10–25K emails to your ICP in 45 days and show you what the same play looks like for {{company}}. You get the meetings either way. Want to compare?
+
+## Alternate follow-ups
+
+- **Day 4, proof:** Recent one: 25K emails, 45 days, 44 meetings, 96% inbox placement. The company's reps now run it on our infrastructure. Happy to show {{company}} the same numbers.
+- **Day 4, question:** Simpler question: if we booked 30 qualified meetings for your reps in the next 45 days, who at {{company}} would want to know how?
+- **Day 8, low-friction ask:** Not asking for a call yet. Send me one sentence on who {{company}} sells to and I'll reply with how many of them we can reach and roughly what it'd produce.
+- **Day 13, redirect:** If outbound sits with someone else at {{company}}, a name is all I need.
+- **Day 18, breakup:** Closing this out. The offer stands whenever it's useful: we run your first 10–25K cold emails, you keep the meetings.
+
+## Persona routing for all variants
+
+| Persona | Variants |
+|---|---|
+| VP Sales / CRO | A, C, E, F, K, L, M |
+| Head of Sales Development | B, F, J, N |
+| RevOps | B, D, G, J |
+| New in role (any) | M |
