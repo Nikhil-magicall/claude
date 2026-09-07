@@ -163,3 +163,65 @@ Personas: Head of Sales Development, RevOps lead, VP Sales, CRO. Openers A and C
 | Head of Sales Development | B, F, J, N |
 | RevOps | B, D, G, J |
 | New in role (any) | M |
+
+---
+
+## Sequence: Intro → Lookalike case study → Offer
+
+> **Before sending:** case study figures below are placeholders in the right shape. Replace with real InboxKit client results. Enterprise buyers will ask for the reference.
+
+### Template (long)
+Subject: `{{lookalike_descriptor}} → 44 meetings in 45 days`
+
+> Hi {{first_name}},
+>
+> I'm {{sender_name}} from InboxKit. We're the cold email infrastructure behind outbound teams at B2B software companies: the domains, warmed mailboxes, deliverability, and sending layer that let a sales team reach its whole market without touching the corporate domain.
+>
+> A {{lookalike_descriptor}} came to us with the same setup I'd guess {{company}} has: {{sdr_count_lookalike}} SDRs, all sending from the main domain, placement slipping. We ran 25,000 emails to their ICP over 45 days on our infrastructure. 96% inbox placement, 3.1% reply rate, 44 qualified meetings. Their reps now run it themselves on 3,000 of our mailboxes.
+>
+> Here's the offer for {{company}}: we run your first 10–25K cold emails end to end. Infrastructure, copy, sending, reply handling. You get the meetings. If it works, your team scales it on our infrastructure. If not, you keep the data.
+>
+> Worth 20 minutes to scope it?
+>
+> {{sender_name}}
+> InboxKit
+
+### Template (short)
+Subject: `what worked for a {{lookalike_descriptor}}`
+
+> {{first_name}} — InboxKit here. We build and run cold email infrastructure for B2B software teams.
+>
+> A {{lookalike_descriptor}} with {{sdr_count_lookalike}} reps ran 25K emails through us in 45 days: 96% placement, 44 meetings. Their team now runs it on our mailboxes.
+>
+> Same offer for {{company}}: we run your first 10–25K emails, you get the meetings, you decide whether to scale.
+>
+> 20 minutes?
+
+### Lookalike case study blocks
+
+| Segment | `lookalike_descriptor` | Case study line |
+|---|---|---|
+| Vertical SaaS | vertical SaaS company selling into {{industry}} | {{sdr_count_lookalike}} reps, one corporate domain, placement under 70%. 25K emails in 45 days, 96% placement, 44 meetings. Now on 3,000 mailboxes. |
+| Horizontal SaaS, mid-market | 15-year-old mid-market SaaS company | Outbound had flatlined for two years despite headcount growth. 20K emails in 45 days, 38 meetings, $1.2M pipeline. Their SDR org runs it now. |
+| Fintech / payments | B2B payments company | Legal wouldn't allow cold email from the main domain. We ran it on isolated infrastructure, 25K emails, 41 meetings, zero incidents on the corporate domain. |
+| HR tech | HR software company | Reps were capped at 40 sends a day. 30 mailboxes per rep took reach up 15×. 25K emails, 47 meetings in the pilot. |
+| Martech / adtech | marketing technology company | Corporate domain reputation was being wrecked by nurture blasts. Moved outbound off it entirely. 25K emails, 96% placement, 44 meetings. |
+| Dev tools / infra | developer tools company | Selling to engineering leaders, a hard audience for cold email. 20K emails, 2.4% reply rate, 32 qualified meetings with VP Eng and CTO titles. |
+| Legacy on-prem → cloud | 20-year-old software company mid-cloud-transition | Needed to reach the installed base's lookalikes without a new SDR hire. 50K emails in 60 days, 71 meetings. Now scaling on 4,000 mailboxes. |
+| PE-backed | PE-backed software company | Efficiency mandate, no new headcount. Same team, 15× reach. 25K emails, 44 meetings, under $300 a meeting. |
+
+### Follow-ups
+
+- **Day 4:** Forgot to add: the {{lookalike_descriptor}} took 3 weeks from first call to first send. If that pace works, {{company}} could have meetings on the calendar before the end of the quarter.
+- **Day 9, new thread, subject `one more for {{company}}`:** Second example, closer to your size: {{lookalike_descriptor_2}}. {{case_study_line_2}}. Happy to put you in touch with them if that's easier than taking my word for it.
+- **Day 14:** If outbound sits with someone else at {{company}}, a name is all I need.
+- **Day 19:** Closing the loop. Offer stands: we run the first 10–25K, you keep the meetings.
+
+### Variables added for this sequence
+
+| Variable | Source |
+|---|---|
+| `lookalike_descriptor` | Segment match from the table above (Clay / DiscoLike industry + company age) |
+| `sdr_count_lookalike` | Real client SDR count, or nearest bracket to prospect's `sdr_count` |
+| `lookalike_descriptor_2`, `case_study_line_2` | Second-closest segment match |
+| `industry` | Prospect's end-customer vertical, for vertical SaaS only |
