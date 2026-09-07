@@ -1,283 +1,324 @@
-# Enterprise Cold Email Campaign Strategy
+# InboxKit Enterprise Strategy: Prove the Channel, Sell the Infrastructure
 
-**Target:** Established B2B SaaS and legacy tech companies (typically $20M–$500M revenue, 200–5,000 employees, 10+ years old).
-**Offer:** A done-for-you cold email pilot to 10,000–50,000 prospects that produces measurable pipeline, converting into an $80K–$100K annual contract.
-
----
-
-## 1. Why this segment, and why they will listen
-
-Legacy SaaS companies share a set of problems that cold email solves cleanly:
-
-- **Growth has flattened.** Net new logo acquisition has slowed. Inbound peaked years ago. Paid CAC has doubled since 2021.
-- **Their SDR team is expensive and under-performing.** A fully loaded SDR costs $90K–$120K a year and books maybe 8–15 meetings a month. Most are sending 40 emails a day from their corporate domain.
-- **They are losing to younger competitors** who run modern outbound infrastructure at scale.
-- **They have a massive, unworked TAM.** Their ICP is well known and stable. They already know exactly who they should be talking to. They just are not reaching them.
-- **Deliverability is broken and nobody owns it.** Their corporate domain reputation is getting torched by Marketo blasts and SDR sequences. Nobody at the company owns "inbox placement."
-- **Buying committees are risk-averse.** They will not sign a $100K contract on a promise. They will sign it after seeing a result. This is why the pilot works.
-
-The core pitch is not "we send cold email." It is: **"We will build you a predictable, scaled outbound engine outside your corporate infrastructure, prove it in 60 days on real prospects, and hand you the pipeline."**
+**Who we are in this motion:** InboxKit, cold email infrastructure. Not an agency.
+**Target:** Established B2B SaaS and legacy tech companies with large outbound teams (50–300+ SDRs/BDRs, or multiple regional GTM teams). Typically 500–5,000 employees, $50M–$1B revenue, 10+ years old.
+**The motion:** We run a 10K–50K contact campaign on our infrastructure so they can validate that cold email at scale works for them. Then their own team (or their agency) scales onto InboxKit at 3,000–5,000 mailboxes for roughly $100K a year.
 
 ---
 
-## 2. Who to target inside the account
+## 1. The one-sentence positioning
 
-Pick one primary persona per sequence. Do not email the CEO of a 2,000-person company about cold email.
+> "Your outbound is capped by mailbox math, not by headcount. We are the sending layer that removes the cap, and we'll prove it on your ICP before you commit."
 
-| Persona | Why they care | Angle |
-|---|---|---|
-| **VP / SVP Sales** | Owns the pipeline number. Under pressure every quarter. | Meetings booked, pipeline created, cost per meeting vs SDR team |
-| **CRO** | Owns revenue efficiency. Thinks in CAC payback and magic number. | Cost per qualified opportunity, faster time-to-pipeline than hiring |
-| **VP Marketing / Demand Gen** | Owns MQL/SQL targets. Paid channels are saturated. | New channel with attributable pipeline, no brand-domain risk |
-| **Head of Sales Development / RevOps** | Runs the SDR org. Fights deliverability and tooling every day. | Infrastructure, inbox placement, freeing SDRs to do calls and follow-ups |
-| **GM of a business unit or new product line** | Needs to launch into a new segment fast without a headcount request. | Rent an outbound engine instead of building one |
-
-Rank order for a first campaign: VP Sales → Head of Sales Development → CRO → VP Demand Gen.
+Everything below serves that sentence.
 
 ---
 
-## 3. The offer: how to structure the pilot
+## 2. Why the pilot is a campaign but the product is infrastructure
 
-The pilot has to do three things: be easy to say yes to, produce a number they cannot argue with, and set up the annual contract.
+Enterprises do not buy 3,000 mailboxes off a landing page. They have never sent cold email at scale from anything other than their corporate domain, their legal team is nervous, and RevOps has been burned by deliverability before. They need to see three things before they will sign:
 
-### Option A — Paid pilot (recommended)
+1. That mail sent from secondary domains lands in the inbox at their target accounts.
+2. That the reply and meeting numbers justify the spend.
+3. That it can be operated by their team inside their existing stack (Outreach, Salesloft, Apollo, Smartlead, HubSpot) without a brand or compliance incident.
 
-- **Price:** $10K–$15K flat for a 60-day pilot. Volume: 10,000–25,000 contacts.
-- **Why paid:** Free pilots attract tire-kickers and get deprioritized internally. A $10K pilot fits under most VP-level discretionary spend limits (often $25K), so it avoids procurement, and it forces the client to engage with the results.
-- **Credit the pilot fee against the annual contract** if they sign within 30 days of the pilot ending. This is the conversion lever.
+The pilot answers all three. We run it because nobody else at their company can run it yet. The moment it works, the conversation is no longer "should we do cold email" but "how many mailboxes do we need." That is the conversation we want, because it is an infrastructure conversation and we are the only one in the room selling infrastructure.
 
-### Option B — Performance pilot
+**Do not let the pilot turn you into their agency.** The pilot has a fixed end date, a documented handoff, and a scaling proposal denominated in mailboxes, not in campaigns.
 
-- **Price:** $0 upfront, $400–$600 per qualified meeting held, capped at $15K.
-- **Use when:** the champion is bought in but cannot get any budget approved without proof.
-- **Risk:** you carry all the cost. Only offer this to accounts you have qualified hard (ICP is clear, they have a list or can approve one fast, they can take meetings quickly).
+---
 
-### Option C — Split test pilot (strongest hook for large enterprises)
+## 3. The mailbox math (the core argument for every persona)
 
-- Frame it as an experiment, not a vendor purchase: **"Give us the same segment your SDRs are working. We'll run 10K contacts in parallel. Compare cost per meeting at day 45."**
-- Enterprises love an A/B test. It removes the "we already do this" objection because you are not replacing anything, you are benchmarking it.
+This is the slide that sells the annual contract.
 
-### What every pilot includes
+**How they operate today**
 
-1. ICP workshop and list build (or list validation if they supply one) — 10K–50K verified contacts.
-2. Dedicated sending infrastructure: 30–100 mailboxes on lookalike domains you own and warm. Their corporate domain is never touched.
-3. Messaging: 3–4 angles, 2–3 sequences, weekly iteration based on reply data.
-4. Reply handling and meeting booking directly into their reps' calendars.
-5. Weekly reporting dashboard: sent, delivered, inbox placement, reply rate, positive reply rate, meetings booked, pipeline created.
-6. End-of-pilot readout with a 12-month projection built from their actual data.
-
-### Pilot success criteria (agree on these up front, in writing)
-
-Set the bar where you can beat it. Typical numbers for a well-run enterprise B2B campaign:
-
-| Metric | Conservative target for 25K sends |
+| | Typical enterprise SDR org |
 |---|---|
-| Deliverability / inbox placement | 95%+ |
+| SDRs | 100 |
+| Sending identities | 100 corporate mailboxes |
+| Safe daily volume per corporate mailbox | 40–50 cold emails |
+| Realistic monthly outbound reach | 100 × 45 × 21 ≈ 95,000 emails |
+| Domain reputation risk | Concentrated on the one domain that also runs billing, support, and product email |
+
+**How they operate on InboxKit**
+
+| | Same 100 SDRs on InboxKit |
+|---|---|
+| Mailboxes | 30–40 per SDR on rotated secondary domains → 3,000–4,000 |
+| Safe daily volume per mailbox | 20–30 |
+| Monthly reach | 3,500 × 25 × 21 ≈ 1.8M emails |
+| Corporate domain exposure | Zero. The primary domain never sends a cold email again. |
+
+Same headcount. Roughly 15–20× the reach. And the risk moves off the domain the company actually depends on.
+
+**The price argument**
+
+- 3,500 mailboxes at roughly $2.40 per mailbox per month ≈ $100K a year.
+- That is under $1,000 per SDR per year to multiply each rep's reach by 15×.
+- It is less than the cost of one additional SDR.
+- Most enterprise SDR orgs already spend more than this on fragmented, un-sanctioned sending tools bought on individual credit cards.
+
+---
+
+## 4. Who to target and what each persona hears
+
+| Persona | Their problem | What InboxKit is to them |
+|---|---|---|
+| **VP / Head of Sales Development** | Reps capped at 40–50 sends a day. Deliverability complaints from reps weekly. | "Give every rep 30 warmed mailboxes with zero setup on their end." |
+| **RevOps / Sales Ops leader** | Owns the stack. Fighting shadow tools. No visibility into sending health. | "One sending layer for the whole org. Centralized admin, health monitoring, and API into your sequencer." |
+| **VP / SVP Sales, CRO** | Pipeline number. Flat outbound output despite headcount growth. | "Remove the ceiling on outbound without a headcount request. Proven on your ICP in 60 days." |
+| **IT / Email Security / Deliverability owner** (often a blocker, occasionally a champion) | Corporate domain reputation, DMARC alignment, brand safety. | "We move cold email off your primary domain entirely. SPF, DKIM, DMARC, and dedicated infrastructure that never touches production mail." |
+| **VP Marketing / Demand Gen** | Paid saturated. Wants a new channel with attribution. | "A scaled outbound channel your SDRs can run, measured in meetings." |
+| **Head of Growth / GM launching a new segment or region** | Needs to enter a new market without waiting for a domain warm-up or headcount. | "Infrastructure for a new market in three weeks." |
+
+Lead the first campaign with **Head of Sales Development** and **RevOps**. They feel the mailbox ceiling daily and they will be the operators after the pilot. Loop the CRO in for the annual contract.
+
+**Account signals to prioritize**
+- 50+ people with SDR/BDR titles on LinkedIn.
+- Uses Outreach, Salesloft, Apollo, or Smartlead (tech-stack data from DiscoLike or Clay).
+- Hiring SDRs right now.
+- New CRO or Head of Sales Dev in the last 6 months.
+- PE-owned or recently acquired (efficiency mandate, willing to consolidate spend).
+- Multiple regional GTM teams (each needs separate infra anyway).
+- Evidence of shadow tooling: job posts mentioning Instantly, Smartlead, or "cold email infrastructure."
+
+---
+
+## 5. Pilot design
+
+### Structure
+
+- **Duration:** 45–60 days.
+- **Volume:** 10K–50K contacts from their ICP. Start at 10K–15K if they are nervous; 50K if they have an existing list.
+- **Infrastructure:** 100–300 InboxKit mailboxes across 25–75 secondary domains, warmed and configured by us. Brand-adjacent domain naming they approve (e.g. `get[brand].com`, `[brand]hq.com`, `try[brand].io`), all redirecting to their main site.
+- **Operations:** We write the copy with their input, load the list, run the sequences, and route positive replies to their SDRs' calendars or their CRM. Their team observes.
+- **Reporting:** Live dashboard. Inbox placement by provider (Google, Microsoft, others), delivered, reply rate, positive reply rate, meetings booked, domain and mailbox health.
+
+### Pricing the pilot
+
+Three ways to price it, in order of preference:
+
+1. **Paid pilot, fully credited.** $10K–$15K flat. Sits under most VP discretionary limits, so it skips procurement. 100% credited against the annual infrastructure contract if signed within 30 days of pilot end.
+2. **Infrastructure-only pilot.** They pay only the mailbox cost for 200 mailboxes for 2 months (a few thousand dollars). We contribute the campaign work. Use when they have a strong ops team who wants to touch the tools during the pilot.
+3. **Free proof-of-channel.** Zero cost, 10K contacts. Only for named accounts you have decided you must win, and only with a signed pilot agreement that names the decision maker and the decision date.
+
+### The two agreements you need before sending anything
+
+**Success criteria, written down.**
+
+| Metric | Target at 25K sends |
+|---|---|
+| Inbox placement | 95%+ |
 | Reply rate | 2–4% |
 | Positive reply rate | 0.5–1% |
 | Qualified meetings | 25–60 |
-| Cost per meeting (at $12K pilot) | $200–$500 |
+| Corporate domain incidents | Zero |
 
-Anchor against their SDR economics: a $110K SDR booking 10 meetings a month is $900+ per meeting before tooling and management.
+**Decision criteria, written down.** "If the pilot hits these numbers, the next step is a scaling proposal for [N] mailboxes, reviewed by [name] on [date]." Get this in the pilot agreement. It converts the pilot from a favor into a sales process.
+
+### Making the pilot demonstrate infrastructure, not just copy
+
+Because you are selling the sending layer, design the pilot to show off the sending layer:
+
+- Run a **placement split**: same copy, same list, half from InboxKit mailboxes, half from a corporate-domain test mailbox (with their permission) or from their existing tool. Show the placement gap by provider.
+- **Connect to their sequencer.** If they run Outreach or Salesloft, plug InboxKit mailboxes in and run at least one sequence from inside their tool. This proves the handoff works before you ask them to sign.
+- Show **mailbox health over time**: warm-up curves, rotation, and at least one deliberate "we retired and replaced a domain that dipped" moment in the weekly readout. That is the product.
+- Give **their RevOps lead admin access** in week 3. Let them see the panel. Operators buy what they have touched.
 
 ---
 
-## 4. The annual contract: how the $80K–$100K is justified
+## 6. From pilot to $100K: the scaling proposal
 
-Never present this as "cold email for $8K a month." Present it as a replacement or augmentation of an SDR function with a hard ROI.
+Present the scaling proposal at **day 45**, not day 60. Lead with their numbers.
 
-**The math slide:**
+**Slide order**
 
-- 12 months × 40–60 meetings a month = 500–700 meetings.
-- At a 25% opportunity conversion and their ACV (say $40K), that is 125–175 opportunities → $5M–$7M in pipeline.
-- At a 20% close rate that is $1M–$1.4M in new ARR for a $90K spend.
-- Compare: 2 SDRs + tooling + manager time ≈ $280K a year for roughly the same output, with ramp time and attrition.
+1. Pilot results vs agreed targets.
+2. Placement split: InboxKit vs corporate/current tool.
+3. The mailbox math for their SDR org (section 3, with their headcount).
+4. Projected pipeline at scale: (meetings per 1,000 sends from the pilot) × (monthly sends at full deployment) × (their opp conversion and ACV).
+5. Three tiers.
+6. Handoff plan.
 
-**Tiers to present:**
+**Tiers (denominate in mailboxes, never in campaigns)**
 
-| Tier | Annual price | Monthly volume | Included |
+| Tier | Mailboxes | Approx. annual | Included |
 |---|---|---|---|
-| Core | $80K | 30K–40K contacts/mo | Infrastructure, list build, copy, reply handling, reporting |
-| Scale | $100K | 60K+ contacts/mo, 2 segments or 2 product lines | Everything in Core + dedicated strategist, multi-persona sequences, CRM integration |
-| Enterprise | $120K+ | Custom | Multiple business units, international, LinkedIn layer |
+| Team | 1,000–1,500 | $40K–$50K | Infra, warm-up, rotation, domain management, sequencer integrations, standard support |
+| **Org** (anchor) | **3,000–4,000** | **$90K–$110K** | Everything in Team + dedicated account manager, quarterly deliverability review, SSO, priority replacement SLA, onboarding for the SDR org |
+| Enterprise | 5,000+ | $140K+ | Everything in Org + dedicated IP pools, custom domain strategy, multi-region, security review support, API access |
 
-Put Scale in the middle. Most buyers pick the middle.
+Put Org in the middle. Anchor to it in every conversation.
 
-**Contract mechanics that help you close:**
+**Contract terms that close enterprise**
 
-- Annual term, quarterly billing (feels lighter than one $90K invoice).
-- 90-day opt-out after the first quarter (removes the fear of a 12-month lock-in; almost nobody uses it if results are there).
-- Pilot fee credited on signing.
-- A "meetings floor": if you fall below an agreed minimum for two consecutive months, they can pause. This is a confidence signal and rarely gets triggered if you set it correctly.
+- Annual term, quarterly or monthly billing.
+- Ramp schedule: 1,000 mailboxes month 1, 2,000 month 2, full deployment month 3. Nobody has to turn on 3,500 mailboxes on day one.
+- Uptime and replacement SLA: any mailbox or domain that degrades is replaced within 24–48 hours.
+- Pilot fee credited.
+- 90-day exit after the first quarter. It is almost never used and it removes the last objection.
 
----
+**The handoff (this is what keeps you from becoming an agency)**
 
-## 5. Campaign angles (what to actually say)
+Two-week transition at the start of the annual contract:
 
-Each angle is a full sequence. Run 3–4 in parallel, kill the losers by week 3.
-
-### Angle 1 — "The SDR math"
-Their SDRs are expensive per meeting. You are cheaper and faster.
-> Most SDR teams at companies your size are booking 8–12 meetings a month per rep, at a fully loaded cost north of $900 a meeting. We run outbound infrastructure for B2B software companies and typically land at $250–$400 per qualified meeting. Worth a 15-minute comparison against your numbers?
-
-### Angle 2 — "Your domain is the problem"
-Deliverability angle for Sales Dev / RevOps.
-> Quick one: when your SDRs send from @company.com, every Marketo blast and every bounced sequence hits the same domain reputation. We saw that pattern with [similar company] and their inbox placement was under 60%. We run outbound on separate, warmed infrastructure so the corporate domain stays clean. Happy to run a free placement test on your domain if useful.
-
-### Angle 3 — "The pilot as an experiment"
-For CROs and skeptical enterprise buyers.
-> Not asking you to replace anything. Give us one segment your team is already working and we'll run 10,000 contacts in parallel for 60 days. You compare cost per meeting. If we lose, you've got a benchmark. If we win, you've got a new channel.
-
-### Angle 4 — "The dormant TAM"
-For companies with a well-defined but under-worked market.
-> You've got roughly [X] companies in your ICP and, judging by team size, your outbound is probably touching a few hundred a month. We built a list of [N] [ICP descriptor] accounts that don't appear to be customers yet. Want me to send it over?
-*(This one works because you attach real value in email one: a list they can keep.)*
-
-### Angle 5 — "New product / new segment launch"
-For GMs and product-line owners.
-> Saw [company] launched [product/segment]. Launching into a new segment usually means a headcount request and six months of ramp. We give companies a fully staffed outbound engine in three weeks, run to 25K prospects, and hand over the pipeline. Would a 60-day pilot be useful for the [product] launch?
-
-### Angle 6 — "Competitor is outworking you"
-Trigger-based, for accounts losing share.
-> Noticed [younger competitor] has been aggressively hiring SDRs and expanding outbound in your space. We're running outbound for a couple of companies in [category] and can share what reply rates look like right now if you want a benchmark.
-
-### Angle 7 — "The reverse case study"
-Send them a mini-report on their own outbound.
-> I had our team send test emails to our own seed accounts from three of your SDRs' public sequences. Here's where they landed: [Gmail: promotions, Outlook: junk, Google Workspace: inbox]. Wrote up a 1-page summary with fixes. Want it?
-*(High effort, very high reply rate. Reserve for top 50 accounts.)*
+- Week 1: their SDRs get mailboxes assigned inside their sequencer. Their RevOps lead is admin. We run a 60-minute enablement session for the SDR org.
+- Week 2: they run their first sequences. We monitor health and review copy once.
+- Ongoing: quarterly deliverability review, account manager, health alerts. Copywriting and campaign management are theirs (or their agency's). If they want ongoing managed campaigns, introduce a partner agency that runs on InboxKit. Don't absorb that work.
 
 ---
 
-## 6. Sample sequence (Angle 1, VP Sales, 5 touches over 18 days)
+## 7. Campaign angles for the outbound campaign that sells this
+
+Run three to four in parallel. Kill the losers at week 3.
+
+### Angle 1 — Mailbox math (primary, Head of Sales Dev / CRO)
+> Quick question — with {{sdr_count}} SDRs at {{company}}, is each rep sending from one @{{domain}} mailbox at 40–50 cold emails a day? If so, your outbound ceiling is about {{sdr_count × 45 × 21}} emails a month, no matter how good the reps are. We give each rep 30 warmed mailboxes on separate domains. Same team, 15× the reach, and the corporate domain never sends another cold email. Happy to run 10K contacts against your ICP so you can see the placement and reply numbers before deciding anything.
+
+### Angle 2 — Domain firewall (RevOps / IT / Deliverability)
+> Every cold sequence your SDRs send from @{{domain}} shares reputation with your billing emails, product notifications, and support replies. One bad quarter of outbound and your transactional mail starts landing in spam. We move cold email onto isolated infrastructure with its own domains, SPF/DKIM/DMARC, and rotation. Want a free placement test on @{{domain}} to see where it stands today?
+
+### Angle 3 — Prove it first (CRO / skeptical enterprise buyer)
+> Not asking you to buy anything. We'll run 10,000 of your ICP contacts through our infrastructure over 45 days and give you inbox placement by provider, reply rates, and meetings booked. If the numbers don't justify scaling, you keep the data and we part ways. If they do, your SDR team runs on it. Worth a 20-minute call to scope the list?
+
+### Angle 4 — Shadow tooling consolidation (RevOps / Sales Ops)
+> Rough guess: a chunk of your SDR team is already using Instantly, Smartlead, or similar on personal cards, sending from domains nobody in IT knows about. We see it at almost every 100+ rep org. We consolidate that into one sanctioned sending layer with central admin, health monitoring, and SSO. Would a 10K-contact pilot help you make the case internally?
+
+### Angle 5 — Keep your sequencer, swap the sending layer (Outreach/Salesloft shops)
+> You've invested in {{sequencer}}. Keep it. The problem isn't the tool, it's that every sequence goes out from one corporate mailbox per rep. We plug hundreds of warmed mailboxes straight into {{sequencer}}, so the reps change nothing and the volume ceiling disappears. Can I show you what that looks like on a pilot list?
+
+### Angle 6 — New market or new product launch (GM / Growth)
+> Saw {{company}} is pushing into {{segment/region}}. Launching outbound into a new market from your main domain means a slow warm-up and a lot of risk to the brand. We spin up dedicated infrastructure for the new market in three weeks and prove the channel on 10–25K contacts before you commit headcount. Useful for the {{segment}} launch?
+
+### Angle 7 — Stop paying an agency markup on infrastructure (accounts using agencies)
+> If {{company}} works with an outbound agency, part of what you pay them is a markup on mailboxes and domains they rent from someone like us. Buy the infrastructure direct, keep the agency for copy and list work if you like, and cut the total bill. Happy to run a comparison pilot.
+
+### Angle 8 — The reverse audit (top 50 accounts only)
+> I had our team look at where your SDRs' outbound is landing. Sent from three of your public sequences to our seed inboxes: two went to spam on Outlook, one to Promotions on Gmail. Wrote up what's causing it and what it would take to fix. Want the summary?
+
+---
+
+## 8. Sample sequence (Angle 1, Head of Sales Development, 5 touches / 18 days)
 
 **Email 1 — Day 1**
-Subject: `sdr cost per meeting`
+Subject: `{{sdr_count}} sdrs, one domain`
 
 > Hi {{first_name}},
 >
-> Quick question — do you know your fully loaded cost per SDR-booked meeting at {{company}}?
+> Quick question. Are your {{sdr_count}} SDRs each sending cold outbound from a single @{{domain}} mailbox?
 >
-> Most VPs of Sales at 500–2,000 person software companies tell us it's somewhere between $800 and $1,200 once salary, tooling, data, and management time are counted.
+> If so, your realistic ceiling is 40–50 emails a day per rep before placement drops, which puts the whole team around {{monthly_ceiling}} emails a month. Headcount goes up, reach barely moves.
 >
-> We run outbound infrastructure and campaigns for B2B software companies and typically land at $250–$400 per qualified meeting, at 20–50K contacts a month.
+> We're InboxKit. We give each rep 30 warmed mailboxes on separate domains, plugged into {{sequencer}}, so the team's reach goes up roughly 15× and the corporate domain stops sending cold email entirely.
 >
-> Would it be worth 15 minutes to compare against your numbers?
+> Would it be worth running 10K of your ICP through it so you can see placement and reply numbers before deciding anything?
 >
 > {{sender_name}}
 
-**Email 2 — Day 4** (reply in thread)
-> One more data point: for {{similar_company}} we ran 25K contacts in 60 days and booked 47 qualified meetings. Their internal team had booked 31 in the same window with 3 reps.
+**Email 2 — Day 4** (same thread)
+> One data point: for a {{similar_company_descriptor}} we ran 25K contacts over 45 days. 96% inbox placement, 3.1% reply rate, 44 meetings. Their internal team on corporate mailboxes had been running at roughly 60% placement.
 >
-> Happy to walk through how the pilot is structured — it's a fixed fee and runs alongside your team, not instead of it.
+> The pilot is fixed-fee and fully credited if you scale. Happy to scope it.
 
-**Email 3 — Day 8** (new thread, different angle)
-Subject: `{{company}} outbound — quick observation`
+**Email 3 — Day 8** (new thread)
+Subject: `where @{{domain}} is landing`
 
-> {{first_name}} — I pulled a few of your team's outbound emails from our seed inboxes. Two of three landed in spam on Outlook.
+> {{first_name}} — ran a quick placement test on mail from @{{domain}}. Outlook is filtering a meaningful share to junk. Gmail is mostly Promotions.
 >
-> Not a criticism of the reps. It's a domain reputation issue, and it's almost always fixable by moving outbound off the corporate domain.
+> Not the reps' fault. It's what happens when cold outbound shares a domain with billing and support mail.
 >
-> If useful I can send a short breakdown of what we saw.
+> Can send the breakdown if useful.
 
-**Email 4 — Day 13** (reply in thread)
-> Re-upping this in case it's useful. If there's someone else who owns pipeline or sales development at {{company}}, happy to be pointed their way.
+**Email 4 — Day 13** (same thread)
+> Bumping this. If RevOps or someone else owns sending infrastructure at {{company}}, happy to take it to them instead.
 
 **Email 5 — Day 18** (breakup)
 Subject: `closing the loop`
 
-> I'll assume the timing's off. If pipeline becomes a priority next quarter, the offer stands: 60-day pilot, fixed fee, we run 10–25K contacts against your ICP and you keep the results either way.
+> I'll assume the timing's off. If outbound capacity becomes a priority next quarter, the offer stands: we run 10K of your ICP on our infrastructure, you keep the data either way.
 >
-> All the best,
 > {{sender_name}}
 
 ---
 
-## 7. Proof and credibility (enterprise buyers need more than a promise)
+## 9. What enterprise procurement will ask (have it ready before the pilot ends)
 
-- **Named case studies with numbers.** Even two are enough. "Company in [category], $X ACV, 25K sends, 52 meetings, $1.1M pipeline in 60 days."
-- **A live dashboard link** in email two or three. Anonymize the client but show real weekly data.
-- **Deliverability proof.** Offer a free inbox placement test of their domain. It costs you almost nothing and it starts a conversation about their infrastructure.
-- **Security and compliance one-pager.** Enterprise procurement will ask: data handling, GDPR/CAN-SPAM/CASL compliance, opt-out handling, where data is stored, who owns the lists. Have it ready before they ask.
-- **Reference calls.** Offer one in the proposal. Have two clients lined up.
+- **Security:** SOC 2 status, data handling, where contact data is stored and for how long, SSO/SAML, role-based access, audit logs.
+- **Compliance:** CAN-SPAM, GDPR, CASL, and UK PECR posture. Opt-out mechanics. Suppression list handling. Who is the data controller for the contact lists (they are).
+- **Brand and legal:** who owns the secondary domains, what happens to them at contract end, naming approval process, trademark considerations.
+- **Deliverability governance:** how mailboxes are warmed, rotated, and retired. What the replacement SLA is. Whether their primary domain is ever involved (no).
+- **Integration:** which sequencers and CRMs are supported, API docs, whether reps need to change workflow.
+- **Commercial:** ramp schedule, billing cadence, exit terms, price protection at renewal.
+
+A one-page answer sheet for each of these shortens the sales cycle by weeks. Send it unprompted with the scaling proposal.
 
 ---
 
-## 8. Objections you will hear and how to answer them
+## 10. Objections
 
 | Objection | Response |
 |---|---|
-| "We already have an SDR team." | "Perfect. Keep them. We run in parallel and you compare cost per meeting at day 45. Worst case you get a benchmark." |
-| "Cold email doesn't work for enterprise deals." | "Agreed, it doesn't close them. It opens them. The pilot is measured in qualified first meetings with your ICP. Your AEs take it from there." |
-| "We can't risk our domain reputation." | "You don't. Everything runs on infrastructure we own and warm. Your corporate domain is never used." |
-| "Legal/compliance won't approve it." | "We operate under CAN-SPAM, GDPR, and CASL. Here's the one-pager. Every email has a working opt-out and we honor suppression lists you provide." |
-| "We tried an agency before and it didn't work." | "What did the reply rate and inbox placement look like? Most agencies fail on infrastructure, not copy. Here's how we're different [dashboard]." |
-| "$100K is a lot." | "It's about 90% of one SDR. Compare output at the end of the pilot and decide with data." |
-| "Send me some information." | "Sure. Would it be more useful if I just ran a free placement test on your domain and sent that back with the deck?" |
+| "We already have Outreach/Salesloft." | "Keep it. We're the sending layer underneath it. Your reps don't change their workflow, they just stop hitting the ceiling." |
+| "Our reps only send from the corporate domain. Legal insists." | "That's the exposure we remove. Cold email from the corporate domain is what puts your billing and support mail at risk. Secondary domains you approve, redirecting to your site, is the safer posture. Happy to walk your legal team through it." |
+| "Isn't this what Instantly and Smartlead do?" | "Those are sequencers with mailboxes bolted on, built for 5-person teams. We're infrastructure built for a 100-rep org: central admin, SSO, health monitoring, SLA, and it plugs into the sequencer you already own." |
+| "Cold email doesn't work for our deal size." | "It opens deals, it doesn't close them. The pilot measures qualified first meetings with your ICP. Your AEs take it from there. Let's see the number before we debate it." |
+| "$100K is a lot for mailboxes." | "It's under $1,000 per SDR per year to give each rep 15× the reach. It's less than one additional hire, and it's probably less than what your team already spends on unsanctioned tools." |
+| "We tried an agency and it flopped." | "Most agency failures are infrastructure failures: bad warm-up, no rotation, torched domains. You'd be buying the infrastructure layer directly, with your team operating it. Different thing." |
+| "Send me some information." | "Sure. More useful: I'll run a free placement test on @{{domain}} and send it with the overview. Takes us a day." |
+| "We'd need to see it work with our list." | "That's exactly what the pilot is. Give us 10K contacts and 45 days." |
 
 ---
 
-## 9. Sourcing the target list (for your own campaign)
+## 11. Channel play: agencies as a distribution layer
 
-Build a list of 2,000–5,000 target accounts, then 3–5 contacts per account.
+The outbound agencies list already in this repo is a second route to the same enterprise accounts. Agencies serving enterprise clients need infrastructure at exactly this scale and prefer not to build it.
 
-**Account filters:**
-- B2B SaaS / software, founded 10+ years ago.
-- 200–5,000 employees.
-- Revenue $20M–$500M (or Series C+ / PE-backed / public small-cap).
-- Sales team of 20+ (LinkedIn headcount in Sales function).
-- Signals to prioritize: SDR job postings (they are trying to scale outbound), recent PE acquisition (efficiency mandate), new CRO or VP Sales in the last 6 months (new leaders buy), flat headcount growth (revenue pressure), recently launched a new product line.
-
-**Contact filters:** VP/SVP Sales, CRO, VP Sales Development, Head of Revenue Operations, VP Demand Gen, GM.
-
-**Tools available in this workspace to build it:** Clay (company + contact enrichment), DiscoLike (discover similar companies, vendor/tech data), FullEnrich and Prospeo (email/phone), GetLeads (funding and acquisition signals). Load into Sendkit for sending.
+- Offer agencies wholesale pricing and a referral fee when they bring an enterprise client onto InboxKit directly.
+- Use agencies as the managed layer when an enterprise wants ongoing campaign work after the pilot. This keeps InboxKit out of agency work and makes the agency your advocate inside the account.
+- Angle 7 above (stop paying the agency markup) and this channel play are in tension. Use Angle 7 for accounts whose agency is not an InboxKit partner. Use the channel play for the rest.
 
 ---
 
-## 10. Your own campaign infrastructure (practice what you sell)
+## 12. Sales process and timeline
 
-You are pitching outbound to people who run outbound. Your own emails have to be flawless.
+| Day | Step |
+|---|---|
+| 0 | Positive reply → 20-minute scoping call. Qualify: SDR headcount, sequencer, current sending setup, who owns infra budget, list availability. Ask their cost per meeting and their inbox placement. Most won't know either. |
+| 1 | Pilot one-pager sent: scope, volume, infra, success criteria, decision criteria, price, decision date. |
+| 7 | Pilot agreement signed. Domain naming approved. List received or list build started. |
+| 7–21 | Infra provisioned and warming. Copy approved. Their RevOps lead gets a dashboard login. |
+| 21 | First sends. |
+| 28, 35, 42 | Weekly 20-minute readouts. Dashboard sent before each. Show raw replies. Week 3: RevOps gets admin access and one sequence runs from their sequencer. |
+| 45 | Scaling proposal presented. Three tiers, mailbox math with their headcount, handoff plan, procurement answer sheet. |
+| 60 | Pilot ends. Final readout. Close the annual. Credit the pilot fee. |
+| 60–75 | Ramp month 1. Handoff weeks. |
 
-- 20–40 warmed mailboxes on 8–15 lookalike domains. Cap at 25–30 sends per mailbox per day.
-- Plain text, no images, no tracking pixels, one link maximum and only in later touches.
-- Every email under 90 words. Every email has one question.
-- Personalize the first line with a real observation (funding, hiring, product launch, an actual deliverability test result), never "I love what you're doing."
-- Reply within 5 minutes during business hours. Enterprise buyers judge you on responsiveness.
-- Suppress current customers, open opportunities, and competitors before sending.
-
----
-
-## 11. Sales process from reply to signed contract
-
-1. **Reply → discovery call (30 min).** Qualify: ICP clarity, ACV, current outbound setup, who owns budget, timeline. Ask for their cost per meeting. Most won't know. That is your opening.
-2. **Pilot proposal (within 24 hours).** One page. Scope, volume, success criteria, price, timeline, what happens at day 60.
-3. **Kickoff within 7 days of signature.** Speed is proof of competence.
-4. **Weekly 20-minute readouts.** Send the dashboard before the call. Show the raw replies, not just the numbers.
-5. **Day 45: pre-close.** Show the trajectory and introduce the annual proposal before the pilot ends. Never wait until day 60.
-6. **Day 60: readout and annual proposal.** Lead with pipeline created and cost per meeting vs their internal benchmark. Present three tiers. Credit the pilot fee. Ask for the signature in the meeting.
-7. **If they stall:** offer the 90-day opt-out clause and quarterly billing. Keep the infrastructure warm for 30 days so restarting is instant.
+If they stall at day 60, keep the pilot infrastructure warm for 30 days at no cost. Restarting instantly is a strong close lever, and cold infrastructure is worth nothing to either side.
 
 ---
 
-## 12. Metrics to track for the campaign selling this
+## 13. Targets for the campaign that sells this
 
 | Stage | Target |
 |---|---|
-| Positive reply rate on your own campaign | 1%+ |
-| Reply → discovery call | 50%+ |
-| Discovery → pilot signed | 30–40% |
-| Pilot → annual contract | 50–60% |
+| Positive reply rate on InboxKit's own campaign | 1%+ |
+| Reply → scoping call | 50%+ |
+| Scoping call → pilot | 30–40% |
+| Pilot → annual infrastructure contract | 50–60% |
 
-At 20K contacts a month to this segment: ~200 positive replies → ~100 calls → ~35 pilots → ~18–20 annual contracts per quarter of sending. Even at a third of that, the unit economics work.
+At 20K contacts a month into this segment: ~200 positive replies → ~100 calls → ~35 pilots → ~18 annual contracts per quarter of sending. Pilot capacity will be the constraint before lead flow is. Decide how many concurrent pilots the team can run well and gate on that.
 
 ---
 
-## 13. Quick-start checklist
+## 14. Quick-start checklist
 
-- [ ] Pick 2 personas and 3 angles for the first campaign.
-- [ ] Build 2,000 target accounts, 3–5 contacts each.
-- [ ] Write the pilot one-pager and the compliance one-pager.
-- [ ] Build the live results dashboard template.
-- [ ] Line up two reference clients.
-- [ ] Set pilot pricing and success criteria.
-- [ ] Warm infrastructure for 3 weeks before first send.
-- [ ] Launch, review weekly, cut losing angles by week 3.
+- [ ] Build 2,000 target accounts: 50+ SDRs, known sequencer, hiring or new sales leadership. Enrich 3–5 contacts each (Head of Sales Dev, RevOps, CRO, VP Sales).
+- [ ] Write the pilot one-pager with success and decision criteria.
+- [ ] Write the procurement answer sheet (security, compliance, brand, integration, commercial).
+- [ ] Build the placement-split report template and the live dashboard.
+- [ ] Confirm sequencer integrations you will demo (Outreach, Salesloft, Apollo, Smartlead, HubSpot).
+- [ ] Decide concurrent pilot capacity and pilot pricing.
+- [ ] Line up two reference customers and one partner agency for managed handoffs.
+- [ ] Warm InboxKit's own sending infrastructure for 3 weeks. Launch angles 1, 2, 3, and 5. Review weekly, cut losers by week 3.
