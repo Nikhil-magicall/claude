@@ -50,10 +50,7 @@ InboxKit
 
 {{first_name}}, following up in case this got buried.
 
-Here's what the setup looks like for Magna Search Group. Two campaigns running in parallel:
-
-1. Client side: hiring managers and HR leads at companies actively posting {{niche}} roles.
-2. Candidate side: people with the exact titles they're placing, who aren't on job boards.
+Here's what the setup looks like for Magna Search Group. Two campaigns run in parallel. One goes to hiring managers and HR leads at companies actively posting {{niche}} roles. The other goes to people with the exact titles they're placing, who aren't on job boards.
 
 InboxKit takes care of the inboxes, warmup and sending. Replies from both campaigns land in one place, so the recruiter is matching a live candidate to a live req the same day.
 
@@ -89,3 +86,33 @@ InboxKit
 - `{{niche}}` is the highest-value token. Pull it from the agency's homepage or LinkedIn tagline. Fall back to "your" if unknown (e.g. "a role in your niche").
 - Spin the "two campaigns" mechanic in Step 2 into a one-page case study once Magna Search Group or Zaelot can share a number (placements, reply rate, or time to first client meeting).
 - Stop the sequence on any reply, including "not interested", and route positives to the calendar.
+
+---
+
+## Sendkit campaign spec
+
+Settings copied from **SURBL Blacklist - Outbound Agencies (Sequencer Users)** (campaign `6a5369d1757679d541fc2b50`). All seven blacklist campaigns in the workspace share the same schedule and tracking values, so this reference is representative.
+
+| Setting | Value |
+| --- | --- |
+| Campaign name | US Recruitment & Staffing Agencies - Candidate + Client Pipeline |
+| Schedule | Mon-Fri, 09:00-17:00, America/New_York |
+| Skip national holidays | On (dashboard-only toggle) |
+| Track opens / clicks | Off / Off |
+| Stop on reply | On |
+| Stop on auto-reply / company reply | Off / Off |
+| Unsubscribe link | Off |
+| Skip Do Not Contact | On |
+| ESP matching | Disabled |
+| SEG check | Disabled |
+| Email interval | 15 minutes |
+| Copy fatigue protection | Off |
+| AI reply agent | Off |
+| Bounce monitoring | On (platform default thresholds) |
+| Positive replies only (email notifications) | On |
+| Mailbox rotation | Round-robin |
+| Senders | 560 mailboxes, tags `inboxkit-ai.com`, `inboxkit-hq.com ( new)`, `inboxkit-inc.com`, `inboxkit-hq.com -1` |
+
+Sequence: three email steps with a 3-day wait then a 4-day wait, giving the Day 1 / 4 / 8 cadence. Step 1 carries three subject variants (A, B, C) on one shared body. Steps 2 and 3 use an empty subject so they thread onto step 1.
+
+Sendkit variable names differ from the draft above: `{{firstName}}`, `{{companyName}}`, `{{senderName}}`, and `{{signature}}` for the sign-off. `{{niche}}` must exist as a custom field on every lead, or the emails will render the token literally.
